@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1626" />
+      <stop offset="50%" stop-color="#0F243E" />
+      <stop offset="100%" stop-color="#081422" />
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4B5E75" />
+      <stop offset="50%" stop-color="#2D3C4F" />
+      <stop offset="100%" stop-color="#1B2735" />
+    </linearGradient>
+    <linearGradient id="burnerFlames" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="40%" stop-color="#00D2FF" />
+      <stop offset="80%" stop-color="#70E5FF" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+    <linearGradient id="ignitorGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#991B1B" />
+      <stop offset="30%" stop-color="#FF5A1F" />
+      <stop offset="70%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#FFFFFF" />
+    </linearGradient>
+    <radialGradient id="hotGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#FF3D00" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF3D00" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glowEffect" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="380" fill="url(#bgGrad)" />
+  <rect width="600" height="380" fill="url(#gridPattern)" />
+
+  <!-- Outer Technical Bezel -->
+  <rect x="12" y="12" width="576" height="356" rx="8" fill="none" stroke="#1E3A5F" stroke-width="1.5" />
+  <circle cx="20" cy="20" r="3" fill="#3B82F6" opacity="0.6" />
+  <circle cx="580" cy="20" r="3" fill="#3B82F6" opacity="0.6" />
+  <circle cx="20" cy="360" r="3" fill="#3B82F6" opacity="0.6" />
+  <circle cx="580" cy="360" r="3" fill="#3B82F6" opacity="0.6" />
+
+  <!-- Component Graphic Body -->
+  
+  <!-- Burner Channel with Blue Gas Flames -->
+  <rect x="70" y="110" width="460" height="190" rx="10" fill="#132338" stroke="#1E40AF" stroke-width="1" />
+  
+  <!-- Gas Burner Manifold -->
+  <rect x="90" y="220" width="320" height="40" rx="6" fill="#1E293B" stroke="#475569" stroke-width="2" />
+  
+  <!-- Vibrant Blue Flame Jets -->
+  <path d="M 120 220 Q 140 130 160 220" fill="url(#burnerFlames)" opacity="0.9" filter="url(#glowEffect)" />
+  <path d="M 180 220 Q 200 120 220 220" fill="url(#burnerFlames)" opacity="0.9" filter="url(#glowEffect)" />
+  <path d="M 240 220 Q 260 125 280 220" fill="url(#burnerFlames)" opacity="0.9" filter="url(#glowEffect)" />
+  <path d="M 300 220 Q 320 135 340 220" fill="url(#burnerFlames)" opacity="0.9" filter="url(#glowEffect)" />
+  
+  <!-- Flame Sensor Porcelain Mount & Sensor Rod Immersed in Flame -->
+  <rect x="360" y="230" width="28" height="50" rx="3" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5" />
+  <path d="M 374 230 L 374 165 L 260 165" fill="none" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round" />
+  <!-- Carbon Oxidation on Sensor Tip -->
+  <circle cx="260" cy="165" r="7" fill="#475569" stroke="#334155" stroke-width="1" />
+  
+  <!-- Microamp DC Rectification Wave Graphic -->
+  <g transform="translate(180, 275)">
+    <rect width="240" height="40" rx="6" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5" />
+    <text x="12" y="25" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#FBBF24">SIGNAL: 0.4 &micro;A (DROPOUT &lt; 1.0 &micro;A)</text>
+  </g>
+  
+
+  <!-- Header Banner HUD -->
+  <rect x="24" y="24" width="552" height="42" rx="6" fill="rgba(8, 20, 36, 0.85)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <text x="40" y="50" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#E2E8F0" letter-spacing="0.5">DIAGNOSTIC: FLAME RECTIFICATION SENSOR ROD</text>
+  
+  <!-- Right Status Badge -->
+  <rect x="420" y="32" width="144" height="26" rx="4" fill="#D97706" />
+  <text x="492" y="49" font-family="'Inter', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">SHORT CYCLING</text>
+</svg>

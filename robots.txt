@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Production XML Sitemap Reference
+Sitemap: https://coolcomfortmiami.com/sitemap.xml
