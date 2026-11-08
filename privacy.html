@@ -150,6 +150,42 @@
     .contact-info-box p:last-child {
       margin-bottom: 0;
     }
+    .county-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin: 24px 0;
+    }
+    .county-box {
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      border-radius: 8px;
+      padding: 18px;
+    }
+    .county-box h4 {
+      font-size: 1.05rem;
+      color: #0F172A;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .county-box ul {
+      margin: 0;
+      padding-left: 18px;
+      list-style-type: disc;
+    }
+    .county-box li {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+    .county-box li a {
+      color: #0284C7;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+    .county-box li a:hover {
+      color: #FF5E14;
+    }
     @media (max-width: 768px) {
       .legal-card {
         padding: 26px 20px;
@@ -428,9 +464,66 @@
       <div class="contact-info-box">
         <p><strong>Business Name:</strong> Miami Air Conditioning Repair</p>
         <p><strong>Address:</strong> 1658 NE 181st St., Miami, FL 33162</p>
-        <p><strong>Website:</strong> <a href="https://miamiairconditioningheatrepair.com/" style="color: #0284C7; text-decoration: underline;">https://miamiairconditioningheatrepair.com</a></p>
+        <p><strong>Website:</strong> <a href="https://miamiairconditioningheatrepair.com" style="color: #0284C7; text-decoration: underline;">https://miamiairconditioningheatrepair.com</a></p>
         <p><strong>Phone:</strong> <a href="tel:3059026113" style="color: #0284C7; font-weight: 700; text-decoration: none;">(305) 902-6113</a></p>
         <p><strong>Service Area:</strong> Miami, Florida, USA</p>
+      </div>
+
+      <h3 style="margin-top: 32px; font-size: 1.25rem; font-weight: 700; color: #0F172A;">Service Area: Miami, Florida</h3>
+      <p>
+        We proudly serve homeowners and commercial properties across Southeast Florida spanning three counties:
+      </p>
+
+      <div class="county-grid">
+        <!-- County 1 -->
+        <div class="county-box">
+          <h4>Miami-Dade County, FL</h4>
+          <ul>
+            <li><a href="/miami">Miami</a></li>
+            <li>Miami Beach</li>
+            <li>Coral Gables</li>
+            <li>Doral</li>
+            <li>Brickell</li>
+            <li>Kendall</li>
+            <li>Aventura</li>
+            <li>Hialeah</li>
+            <li>Pinecrest</li>
+            <li>Homestead</li>
+            <li>Coconut Grove</li>
+          </ul>
+        </div>
+
+        <!-- County 2 -->
+        <div class="county-box">
+          <h4>Broward County, FL</h4>
+          <ul>
+            <li>Fort Lauderdale</li>
+            <li>Hollywood</li>
+            <li>Pembroke Pines</li>
+            <li>Miramar</li>
+            <li>Pompano Beach</li>
+            <li>Coral Springs</li>
+            <li>Plantation</li>
+            <li>Sunrise</li>
+            <li>Davie</li>
+            <li>Weston</li>
+          </ul>
+        </div>
+
+        <!-- County 3 -->
+        <div class="county-box">
+          <h4>Palm Beach County, FL</h4>
+          <ul>
+            <li>Boca Raton</li>
+            <li>Delray Beach</li>
+            <li>West Palm Beach</li>
+            <li>Boynton Beach</li>
+            <li>Jupiter</li>
+            <li>Palm Beach Gardens</li>
+            <li>Wellington</li>
+            <li>Lake Worth</li>
+          </ul>
+        </div>
       </div>
     </div>
   </main>

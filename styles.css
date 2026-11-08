@@ -1342,6 +1342,8 @@ ul, ol {
 }
 
 .btn-property-red {
+  text-decoration: none;
+  cursor: pointer;
   background-color: var(--cta-red);
   color: var(--white);
   font-weight: 700;
