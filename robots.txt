@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Production XML Sitemap Reference
-Sitemap: https://coolcomfortmiami.com/sitemap.xml
+Sitemap: https://miamiairconditioningheatrepair.com/sitemap.xml
