@@ -1,6 +1,12 @@
-# Cool Comfort Heating & Air Conditioning — Website
+# Miami Air Conditioning Repair — Official Website
 
-A responsive, high-converting HVAC contractor website crafted according to the design specification and reference image.
+Official website repository for Miami Air Conditioning Repair (`https://miamiairconditioningheatrepair.com`).
+
+- **Production Domain**: `https://miamiairconditioningheatrepair.com`
+- **Clean URLs**: All service and location pages served with clean extensionless paths (`/ac-repair`, `/miami`, `/hvac-service`, etc.)
+- **Service Territory**: Miami-Dade, Broward, and Palm Beach Counties
+- **Deployment Platform**: Cloudflare Pages
+- **Latest Build Trigger**: November 9, 2026
 
 ## Updated Features & Architecture
 
