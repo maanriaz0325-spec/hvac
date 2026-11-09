@@ -32,82 +32,149 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation#service",
+      "name": "UV Air Purifier Installation in Miami, FL",
+      "serviceType": "UV Air Purifier Installation",
+      "url": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation",
+      "description": "Considering UV air purification for your home",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "UV Air Purifier Systems",
-        "item": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "UV Air Purifier Installation",
+          "item": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is an HVAC UV light and how does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An HVAC UV light uses germicidal ultraviolet light (specifically UV-C light at approximately 254 nanometers) to target biological organisms such as mold spores, bacteria, and viruses. The ultraviolet radiation damages the cellular DNA or RNA of microorganisms, preventing them from reproducing and colonizing inside your AC system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are UV lights installed in an air conditioning system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UV lights are most commonly installed inside the indoor air handler directly facing the evaporator coil and drain pan, where moisture creates the greatest risk of biological growth. They can also be installed in the supply or return ductwork to treat air as it circulates through the duct system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between coil UV lights and in-duct air purifiers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Coil-targeted UV lights focus their continuous radiation on the stationary surfaces of the evaporator coil and drain pan to prevent biofilm buildup. In-duct air purifiers treat moving air as it passes through the duct, requiring higher-intensity lamps or photocatalytic oxidation (PCO) media to neutralize airborne organisms in fractions of a second."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can UV lights eliminate mold inside my AC system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "UV-C light is highly effective at preventing mold from growing on surfaces it shines on directly. However, it is not a substitute for physically cleaning an already heavily fouled evaporator coil. The coil should be cleaned first, and the UV system then installed to keep it clean continuously."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are HVAC UV lights safe for my home and family?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, when properly installed. The UV-C light is completely contained inside the sealed metal air handler cabinet or ductwork and cannot be seen from living areas. Professional installations include magnetic safety switches that automatically turn off the light whenever the access panel is opened."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will UV light damage plastic parts or ductwork inside the system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prolonged UV exposure can degrade non-UV-resistant materials such as standard plastic drain pans, electrical wiring insulation, or flexible duct liners. During professional installation, our technicians shield vulnerable components with specialized UV-resistant metal tape or place the lamp at a safe distance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do HVAC UV light bulbs last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most germicidal UV-C lamps are rated for approximately 9,000 to 18,000 operating hours—roughly 1 to 2 years of continuous use. While the lamp may still emit visible blue light after that time, its germicidal UV-C output decreases significantly, so annual or biennial bulb replacement is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do UV lights run all the time or only when the AC is cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Coil-surface UV lights typically run continuously 24/7 because moisture remains on the coil and drain pan even when the blower stops. In-duct air stream purifiers are often wired to turn on only when the blower fan is operating to treat moving air and extend bulb life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a UV light help reduce musty air conditioner odors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If the musty smell is caused by microbial growth on the damp evaporator coil or in the drain pan, installing a UV-C light directly targeting those surfaces helps eliminate the biological source of the odor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does HVAC UV light installation cost in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost depends on whether you choose a single coil lamp, a dual-lamp system, or an advanced air-purification unit with PCO technology, as well as electrical access and physical mounting requirements. Contact our team for an upfront estimate based on your equipment."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -304,7 +371,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-quote">
+              <a href="tel:3059026113" class="btn-quote">
                 Request UV Installation Estimate &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -425,7 +492,7 @@
               <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
                 We verify coil clearance, lamp intensity, and component shielding to deliver safe, effective germicidal protection.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Schedule UV Evaluation &rarr;
               </a>
             </div>
@@ -1526,7 +1593,7 @@
         </div>
         <div class="quote-form-card">
             <div class="quote-form-badge">Fast Response</div>
-            <form class="ajax-quote-form" id="serviceForm" onsubmit="event.preventDefault(); alert('Thank you! Your estimate request has been received. Our team will contact you shortly.');">
+            <form class="ajax-quote-form" id="serviceForm" >
               <div class="quote-form-grid">
                 <div class="form-group">
                   <label class="form-label" for="fullName">Your Full Name *</label>
@@ -1592,9 +1659,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1673,7 +1757,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

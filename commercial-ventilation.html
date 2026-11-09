@@ -32,82 +32,149 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/commercial-ventilation",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ventilation#service",
+      "name": "Commercial Ventilation & Exhaust in Miami, FL",
+      "serviceType": "Commercial Ventilation and Exhaust Services",
+      "url": "https://miamiairconditioningheatrepair.com/commercial-ventilation",
+      "description": "Need commercial ventilation or exhaust service in Miami? Get help addressing airflow concerns, exhaust equipment problems and ventilation requirements in restaurants, workshops and commercial buildings.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Commercial Ventilation & Exhaust",
-        "item": "https://miamiairconditioningheatrepair.com/commercial-ventilation"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ventilation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Commercial Ventilation & Exhaust",
+          "item": "https://miamiairconditioningheatrepair.com/commercial-ventilation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ventilation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is included in commercial ventilation service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Commercial ventilation service includes diagnostic evaluation of exhaust fans, motors, belts, electrical controls, ductwork static pressure, make-up air equipment, and overall building airflow balancing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you repair commercial exhaust fans in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We diagnose and repair all types of commercial exhaust fans including rooftop upblast fans, inline blowers, sidewall exhausters, and commercial kitchen hood ventilation systems across Miami-Dade and Broward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my commercial kitchen exhaust fan running but not removing smoke?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common causes include slipped or worn drive belts, a damaged or grease-clogged fan impeller wheel, closed or obstructed dampers, grease filter blockages, or reverse fan motor rotation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does a make-up air unit do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A make-up air unit replaces air that has been pulled out of a building by commercial exhaust systems. It helps maintain indoor air balance, controls pressure differentials, and supports overall HVAC efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can poor make-up air cause negative pressure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If exhaust systems remove more air than the building takes in, negative pressure develops. This can cause doors to be difficult to open, backdrafts, indoor humidity problems, and uncomfortable hot spots."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my restaurant kitchen hot even when the AC is running?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Commercial kitchens produce substantial radiant heat. If exhaust capture is weak, make-up air is supplying hot untempered air directly into the space, or airflow balance is improper, standard cooling cannot keep pace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you install commercial kitchen exhaust hoods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide commercial ventilation and exhaust services for kitchen setups, including duct connections, exhaust fan installation, make-up air matching, and airflow balancing according to mechanical plans."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should commercial ventilation equipment be inspected?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "High-volume commercial kitchens benefit from quarterly or bi-monthly inspections of belts, bearings, motors, and grease containment. Standard commercial buildings should be serviced at least twice annually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do commercial ventilation projects require permits in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New commercial ventilation installations, hood additions, structural curb penetrations, and major duct redesigns generally require mechanical permits and engineering review from the local building department."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What information should I provide when requesting commercial ventilation service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provide the type of facility (restaurant, warehouse, retail), reported symptoms (smoke, noise, negative pressure), equipment accessibility (roof ladder, hatch), and manufacturer nameplate data if available."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -318,7 +385,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-quote">
+              <a href="tel:3059026113" class="btn-quote">
                 Request Ventilation Service &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -1468,7 +1535,7 @@
         </div>
         <div class="quote-form-card">
             <div class="quote-form-badge">Fast Commercial Response</div>
-            <form class="ajax-quote-form" id="serviceForm" onsubmit="event.preventDefault(); alert('Thank you! Your commercial request has been received. Our dispatch team will contact you promptly.');">
+            <form class="ajax-quote-form" id="serviceForm" >
               <div class="quote-form-grid">
                 <div class="form-group">
                   <label class="form-label" for="companyName">Business / Company Name *</label>
@@ -1549,9 +1616,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1630,7 +1714,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

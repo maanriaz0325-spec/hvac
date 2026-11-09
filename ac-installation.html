@@ -32,82 +32,149 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/ac-installation",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-installation#service",
+      "name": "AC Installation in Miami, FL",
+      "serviceType": "Air Conditioning Installation",
+      "url": "https://miamiairconditioningheatrepair.com/ac-installation",
+      "description": "Professional residential and commercial air conditioning installation and replacement in Miami, FL. 25 years HVAC experience, certified technicians, upfront estimates, and ACCA Manual J load sizing.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "AC Installation",
-        "item": "https://miamiairconditioningheatrepair.com/ac-installation"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-installation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AC Installation",
+          "item": "https://miamiairconditioningheatrepair.com/ac-installation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-installation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a new AC installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Installation time depends on the type of system, the existing setup, and the amount of work required. A straightforward replacement typically takes between 4 to 8 hours, while a complete installation involving new ductwork, electrical upgrades, or commercial rooftop cranes may take longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it better to repair or replace an old AC? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the system's age, condition, repair cost, and overall performance. If the equipment is over 12–15 years old, uses outdated R-22 refrigerant, needs frequent repairs, or requires an expensive compressor replacement, comparing replacement options may help you make a more practical long-term financial decision."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I install a larger AC unit to cool my home faster? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. A larger system is not automatically better. An oversized air conditioner cools the air too rapidly without running long enough to pull humidity out of the home, leading to a clammy indoor climate, mold vulnerability, and frequent on/off cycling that wears out components. Proper system sizing should account for the property's cooling load via ACCA Manual J calculations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to replace my ductwork when installing a new AC? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. Existing ductwork may be suitable for a new system, but it should be evaluated for its condition, sizing, airflow, static pressure, and compatibility with the proposed equipment. We inspect duct integrity before finalizing installation plans."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I replace my central AC without replacing the heating system? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In some situations, yes. It depends on the existing equipment, system configuration, and compatibility requirements. A review of the current setup can help determine whether replacing one component or the complete system is more appropriate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between central AC and a mini-split system? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Central AC uses a centralized air handler and network of ductwork to distribute cooled air throughout an entire building. A ductless mini-split system delivers conditioned air directly to individual indoor units without conventional ductwork, enabling room-by-room zoning and high efficiency."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What AC brands are available for installation? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Available brands depend on the type of equipment, system requirements, and current supply. Options may include Goodman, Carrier, Trane, Rheem, Lennox, Mitsubishi Electric, Daikin, LG, York, Amana, Bryant, and other manufacturers listed above. Contact us to discuss which options are currently available and suitable for your project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you install separate AC systems for a duplex or multi-family property? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Separate systems are a common solution for properties with multiple units, duplexes, or independent occupants. The installation requirements depend on the building layout, electrical panel capacity, available outdoor condenser space, and desired individual utility billing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer AC installation for commercial properties? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we work with residential and commercial HVAC installation and replacement requirements. The appropriate equipment and installation scope depend on the building, its cooling load, occupancy patterns, and existing rooftop or split HVAC configuration."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get an estimate for a new AC installation? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contact Air Conditioning Repair with your property location and details about your existing system or planned installation using the quote form below or by calling (305) 902-6113. We can discuss your project requirements and arrange an on-site evaluation for a transparent written estimate."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -313,7 +380,7 @@
 
           <!-- CTA Buttons (50/50 Orange & Blue/Call) -->
           <div class="service-hero-actions">
-            <a href="#quote-form" class="btn-cta-orange" style="padding: 14px 30px; font-size: 1.05rem;">
+            <a href="tel:3059026113" class="btn-cta-orange" style="padding: 14px 30px; font-size: 1.05rem;">
               Request Replacement Estimate &rarr;
             </a>
             <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -459,7 +526,7 @@
             <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 12px;">
               Our team can review your existing setup, explain suitable replacement options, and provide an estimate before you decide without high sales pressure.
             </p>
-            <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+            <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
               Schedule Diagnostic Assessment &rarr;
             </a>
           </div>
@@ -763,7 +830,7 @@
               </li>
             </ul>
             <div class="install-service-footer">
-              <a href="#quote-form" class="btn-cta-blue" style="width: 100%; text-align: center;">
+              <a href="tel:3059026113" class="btn-cta-blue" style="width: 100%; text-align: center;">
                 Plan Central AC Installation &rarr;
               </a>
             </div>
@@ -800,7 +867,7 @@
               </li>
             </ul>
             <div class="install-service-footer">
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center;">
                 Request Complete Replacement &rarr;
               </a>
             </div>
@@ -837,7 +904,7 @@
               </li>
             </ul>
             <div class="install-service-footer">
-              <a href="#quote-form" class="btn-cta-blue" style="width: 100%; text-align: center;">
+              <a href="tel:3059026113" class="btn-cta-blue" style="width: 100%; text-align: center;">
                 Compare Replacement Models &rarr;
               </a>
             </div>
@@ -874,7 +941,7 @@
               </li>
             </ul>
             <div class="install-service-footer">
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center;">
                 Inquire About Heat Pumps &rarr;
               </a>
             </div>
@@ -915,10 +982,10 @@
               </ul>
             </div>
             <div class="install-service-footer">
-              <a href="#quote-form" class="btn-cta-blue" style="flex: 1; text-align: center;">
+              <a href="tel:3059026113" class="btn-cta-blue" style="flex: 1; text-align: center;">
                 Design Multi-Zone System &rarr;
               </a>
-              <a href="#quote-form" class="btn-cta-orange" style="flex: 1; text-align: center;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="flex: 1; text-align: center;">
                 Request Multi-Unit Estimate &rarr;
               </a>
             </div>
@@ -939,7 +1006,7 @@
           </p>
         </div>
         <div class="dual-cta-group">
-          <a href="#quote-form" class="btn-cta-orange" style="padding: 14px 28px;">
+          <a href="tel:3059026113" class="btn-cta-orange" style="padding: 14px 28px;">
             Commercial Proposal Request &rarr;
           </a>
           <a href="tel:3059026113" class="btn-hero-dark-call" style="padding: 14px 24px;">
@@ -977,7 +1044,7 @@
           <p class="equip-option-desc">
             Central AC systems are commonly used in homes with existing ductwork. They distribute conditioned air through the property's duct system and can provide whole-home cooling when properly sized and installed. If your property already has a central HVAC setup, replacing existing equipment may be more straightforward than installing a completely new system.
           </p>
-          <a href="#quote-form" class="btn-cta-blue" style="text-align: center;">
+          <a href="tel:3059026113" class="btn-cta-blue" style="text-align: center;">
             Explore Central AC Options &rarr;
           </a>
         </div>
@@ -994,7 +1061,7 @@
           <p class="equip-option-desc">
             Ductless mini-split systems can be an option for rooms, additions, apartments, or properties where extending ductwork is impractical. They deliver conditioned air directly to indoor air handlers and can provide independent temperature control in different areas, depending on system configuration and high SEER2 efficiency.
           </p>
-          <a href="#quote-form" class="btn-cta-orange" style="text-align: center;">
+          <a href="tel:3059026113" class="btn-cta-orange" style="text-align: center;">
             Explore Mini-Split Options &rarr;
           </a>
         </div>
@@ -1011,7 +1078,7 @@
           <p class="equip-option-desc">
             Window and portable AC units are generally designed for individual rooms or smaller spaces rather than whole-home central cooling. They may be worth considering where a permanent central or ductless installation is not suitable. The appropriate option depends on room size, cooling requirements, and installation conditions.
           </p>
-          <a href="#quote-form" class="btn-cta-blue" style="text-align: center;">
+          <a href="tel:3059026113" class="btn-cta-blue" style="text-align: center;">
             Compare Room Solutions &rarr;
           </a>
         </div>
@@ -1212,7 +1279,7 @@
               <li><strong>Compliance:</strong> Miami-Dade wind-load hurricane tie-down brackets and new safety electrical disconnect.</li>
               <li><strong>Outcome:</strong> 34% reduction in monthly electricity usage with quiet, balanced 72°F comfort in every room.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Central AC Estimate &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Central AC Estimate &rarr;</a>
           </div>
         </div>
 
@@ -1232,7 +1299,7 @@
               <li><strong>Technology:</strong> 22 SEER2 variable-speed inverter operation with individual handheld climate remotes.</li>
               <li><strong>Outcome:</strong> Independent temperature zones for living area and bedrooms with zero duct loss.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-blue">Explore Ductless Options &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-blue">Explore Ductless Options &rarr;</a>
           </div>
         </div>
 
@@ -1252,7 +1319,7 @@
               <li><strong>Turnaround:</strong> Completed mechanical lift, duct transitions, and commissioning in a 6-hour weekend window.</li>
               <li><strong>Outcome:</strong> Optimal static pressure, balanced ventilation, and reduced peak demand electrical charges.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Commercial Proposal &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Commercial Proposal &rarr;</a>
           </div>
         </div>
       </div>
@@ -1806,9 +1873,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1887,7 +1971,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

@@ -32,82 +32,141 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/heat-pump-repair",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/heat-pump-repair#service",
+      "name": "Heat Pump Repair in Miami, FL",
+      "serviceType": "Heat Pump Repair",
+      "url": "https://miamiairconditioningheatrepair.com/heat-pump-repair",
+      "description": "Experiencing poor heating or cooling, unusual noises or inconsistent heat pump performance? Get professional heat pump repair in Miami with system inspection and troubleshooting.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Heat Pump Repair",
-        "item": "https://miamiairconditioningheatrepair.com/heat-pump-repair"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/heat-pump-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Heat Pump Repair",
+          "item": "https://miamiairconditioningheatrepair.com/heat-pump-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/heat-pump-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is my heat pump blowing warm air in cooling mode?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common causes include a stuck reversing valve (holding the system in heating mode), low refrigerant levels, a dirty or blocked outdoor coil, compressor issues, or a thermostat wiring/programming problem. A technician must assess the system to identify the specific cause."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my heat pump not heating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Miami's mild winters, a heat pump should readily warm the home. If it blows cool air or fails to produce heat, the cause may be a reversing valve that won't switch into heating mode, failed auxiliary heat strips, low refrigerant, or an outdoor defrost issue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a reversing valve be repaired, or does it have to be replaced?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If the solenoid coil has failed or there is a low-voltage electrical connection problem, replacing the solenoid or fixing the connection may resolve the issue without replacing the valve body. If the internal mechanism of the 4-way valve is mechanically stuck or damaged, the valve body itself must be replaced, which involves recovering the refrigerant, brazing in the new valve, and recharging the system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my outdoor heat pump unit covered in ice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some frost formation on the outdoor coil during heating operation is normal in cold weather. However, if thick ice blankets the unit and does not melt, the defrost control board, defrost sensor, or reversing valve may not be initiating the defrost cycle properly. Low refrigerant or restricted airflow can also cause icing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is heat pump repair different from standard AC repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard air conditioner only cools. A heat pump contains specialized components—a reversing valve, defrost controls, bi-flow filter driers, and dual metering devices—that allow it to reverse refrigerant flow. Diagnosing a heat pump requires understanding how both cooling and heating cycles interact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my heat pump making a buzzing or humming sound?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A buzzing noise often comes from an electrical contactor relay, a reversing valve solenoid, or a failing capacitor. Humming can also come from a motor that is receiving power but unable to turn. Any persistent electrical noise should be evaluated promptly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a heat pump repair usually take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most common repairs—such as replacing a capacitor, contactor, defrost sensor, or thermostat—can be completed in 1 to 2 hours. More involved repairs, such as replacing a reversing valve, repairing a refrigerant leak, or replacing a compressor, may take several hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I repair or replace my heat pump?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the age of the unit, the cost of the repair, and overall condition. If the heat pump is under 10 years old and the repair is straightforward, fixing it makes sense. If the unit is over 12–15 years old, uses phased-out R-22 refrigerant, or needs an expensive compressor replacement, replacement is often more cost-effective."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you service all brands of heat pumps?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We service all major heat pump brands, including Carrier, Trane, Lennox, Rheem, Goodman, York, Daikin, Mitsubishi, and others, for both split systems and packaged heat pump equipment."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -293,7 +352,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-cta-orange btn-lg">
+              <a href="tel:3059026113" class="btn-cta-orange btn-lg">
                 Schedule Diagnostic Assessment &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -400,7 +459,7 @@
           <p style="font-size: 1.02rem; font-weight: 700; color: var(--primary-navy); margin: 0 0 16px;">
             The right repair depends on the system and the fault identified during inspection. We explain what needs attention before any work begins.
           </p>
-          <a href="#quote-form" class="btn-cta-orange" style="display: inline-flex;">Schedule Diagnostic Assessment &rarr;</a>
+          <a href="tel:3059026113" class="btn-cta-orange" style="display: inline-flex;">Schedule Diagnostic Assessment &rarr;</a>
         </div>
       </div>
     </section>
@@ -1735,9 +1794,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1816,7 +1892,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

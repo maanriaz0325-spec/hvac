@@ -32,82 +32,165 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com//commercial-ac-repair",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ac-repair#service",
+      "name": "Commercial AC Repair in Miami, FL",
+      "serviceType": "Commercial Air Conditioning Repair",
+      "url": "https://miamiairconditioningheatrepair.com/commercial-ac-repair",
+      "description": "Is your office, restaurant or retail space experiencing cooling problems? Get commercial AC repair in Miami with equipment inspection and repair solutions suited to your business needs.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Commercial AC Repair",
-        "item": "https://miamiairconditioningheatrepair.com//commercial-ac-repair"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ac-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Commercial AC Repair",
+          "item": "https://miamiairconditioningheatrepair.com/commercial-ac-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ac-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you provide commercial air conditioning repair in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Miami Air Conditioning Repair provides dedicated commercial air conditioning diagnosis and repair for commercial properties across Miami-Dade, Broward, and Palm Beach County. Contact our team with property details and equipment info to coordinate dispatch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of commercial AC systems can you repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We service rooftop units (RTUs), commercial packaged systems, commercial split-system air conditioners, and dedicated indoor air handlers. Share the unit's make, model, or data plate when requesting service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repair a commercial rooftop AC unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Rooftop units require equipment-specific diagnosis and safe building access. When booking, provide roof access procedures, equipment locations, and observed symptoms so our technicians arrive prepared with appropriate gear."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my commercial AC running but not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possible causes include restricted airflow, a refrigerant-circuit leak, a failed compressor or condenser fan, fouled coils, or electrical/thermostat control issues. A systematic on-site inspection is required to identify the root cause."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if a commercial AC unit stops working?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Note which unit stopped, the affected zones, and any error codes or noises. If an electrical breaker repeatedly trips, do not keep resetting it, as this can cause compressor burnout or electrical fire hazards. Contact our team for an inspection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repair commercial AC refrigerant leaks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Refrigerant leak repair requires locating the fracture with electronic detection and assessing the component. We braze accessible copper leaks or replace severely corroded coils, followed by nitrogen pressure testing and evacuation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What causes water to leak from a commercial AC unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Blocked condensate lines, cracked drain pans, failed condensate removal pumps, loose drain fittings, or melting ice from a frozen coil can cause water leaks. The technician traces water to its source to protect ceiling tiles and inventory."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repair AC problems in a building with multiple units?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. For properties with multiple rooftop or split units, provide unit numbers, equipment tags, and specific symptoms for each zone so our team can assess the equipment systematically and communicate clearly with management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide emergency commercial AC repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Emergency dispatch is available across South Florida. Contact our dispatch line, explain the business impact and building details, and our team will confirm current response times and technician availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you repair commercial refrigeration systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our focus is strictly commercial comfort air conditioning and HVAC climate control. Commercial food refrigeration (walk-in freezers, display coolers, ice machines) is a separate trade category and is not covered under our comfort AC service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I repair or replace an older commercial AC system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Age is only one factor. The nature of the failure, equipment condition, repair cost, parts availability, and future breakdown risk are all considered. A technician explains whether component repair is practical or if replacement warrants a separate quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What information should I provide when booking commercial AC service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provide the property address, business type, affected suite or floor, equipment type or model if known, operating symptoms, and any building access or roof security requirements. Also identify who has authority to approve repair estimates."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -304,7 +387,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-quote">
+              <a href="tel:3059026113" class="btn-quote">
                 Request Commercial Repair &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -425,7 +508,7 @@
               <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
                 We assess the unit, electrical supply, and refrigerant circuits before recommending a repair so you never pay for guesswork.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Schedule Service Call &rarr;
               </a>
             </div>
@@ -1734,7 +1817,7 @@
         </div>
         <div class="quote-form-card">
             <div class="quote-form-badge">Fast Commercial Response</div>
-            <form class="ajax-quote-form" id="serviceForm" onsubmit="event.preventDefault(); alert('Thank you! Your commercial request has been received. Our dispatch team will contact you promptly.');">
+            <form class="ajax-quote-form" id="serviceForm" >
               <div class="quote-form-grid">
                 <div class="form-group">
                   <label class="form-label" for="companyName">Business / Company Name *</label>
@@ -1817,9 +1900,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1898,7 +1998,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

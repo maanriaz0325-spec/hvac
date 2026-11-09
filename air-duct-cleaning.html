@@ -32,82 +32,165 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/air-duct-cleaning",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/air-duct-cleaning#service",
+      "name": "Air Duct Cleaning in Miami, FL",
+      "serviceType": "Air Duct Cleaning",
+      "url": "https://miamiairconditioningheatrepair.com/air-duct-cleaning",
+      "description": "Noticing dust around vents or concerned about accumulated debris in your ductwork? Get professional air duct cleaning in Miami to address buildup and maintain your HVAC air distribution system.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Air Duct Cleaning",
-        "item": "https://miamiairconditioningheatrepair.com/air-duct-cleaning"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/air-duct-cleaning#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Air Duct Cleaning",
+          "item": "https://miamiairconditioningheatrepair.com/air-duct-cleaning"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/air-duct-cleaning#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if my air ducts need cleaning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for substantial visible dust or debris inside ductwork, particles being released from supply registers, pest contamination or confirmed visible mold growth on appropriate duct surfaces. Dust on a return grille alone does not necessarily mean the entire system needs cleaning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in professional air duct cleaning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The scope may include supply and return ductwork, registers, grilles, accessible trunk lines and plenums. Blower, evaporator coil and drain-pan cleaning should be confirmed separately because they may not be included in a standard duct-cleaning service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you clean both supply and return air ducts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The estimate should identify whether both sides are included. Supply ducts deliver conditioned air to rooms, while return ducts carry air back to the HVAC equipment. They are separate parts of the system and should be assessed accordingly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does air duct cleaning include vent covers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vent covers, registers and grilles may be included, depending on the agreed scope. However, cleaning these visible components is not the same as cleaning the ductwork behind them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does air duct cleaning take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The time depends on the number of HVAC systems, duct layout, register count, access and amount of buildup. A property with multiple systems or difficult access will generally require a different schedule from a smaller, accessible system. The expected time should be confirmed when the job is assessed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does air duct cleaning cost in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There is no single price that applies to every property. The number of systems, vents, duct material, accessibility and level of contamination all affect the work. Request an estimate based on your actual HVAC layout and confirm exactly what is included."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can air duct cleaning remove dust coming from AC vents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If excessive dust or debris inside the ductwork is the source, cleaning the affected sections may address that buildup. If the dust comes from a filter that does not fit properly, indoor sources or another HVAC condition, that cause needs separate attention."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I clean my air ducts after home renovation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An inspection is sensible if the HVAC system operated during dusty construction or renovation work. Drywall dust and other debris can enter the return system, but cleaning should be based on what is actually found inside the ductwork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does air duct cleaning remove musty AC smells?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It may help if the odor is coming from contaminated duct surfaces. However, a musty smell can also come from moisture around the evaporator coil, condensate pan or blower compartment. Identifying the source is important before choosing the service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is air duct sanitizing necessary after cleaning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sanitizing is not automatically necessary after duct cleaning. Any proposed chemical treatment should have a clear reason, an appropriate product and an explanation of its limitations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can air duct cleaning fix weak airflow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. A duct restriction caused by substantial debris may be relevant, but weak airflow can also result from a dirty filter, blower issue, closed or restricted registers, damaged ductwork or equipment problems. The system needs to be assessed before recommending cleaning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is dryer vent cleaning the same as air duct cleaning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. HVAC air ducts distribute conditioned air through the property. Dryer vents carry hot, moist air and lint from the clothes dryer to the exterior. They are separate systems and require different cleaning procedures."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -304,7 +387,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-quote">
+              <a href="tel:3059026113" class="btn-quote">
                 Request Cleaning Estimate &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -425,7 +508,7 @@
               <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
                 We inspect the actual duct runs and air-handling equipment before quoting so you never pay for unnecessary cleaning treatments.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Schedule Duct Inspection &rarr;
               </a>
             </div>
@@ -1538,7 +1621,7 @@
         </div>
         <div class="quote-form-card">
             <div class="quote-form-badge">Fast Response</div>
-            <form class="ajax-quote-form" id="serviceForm" onsubmit="event.preventDefault(); alert('Thank you! Your duct cleaning request has been received. Our team will contact you shortly.');">
+            <form class="ajax-quote-form" id="serviceForm" >
               <div class="quote-form-grid">
                 <div class="form-group">
                   <label class="form-label" for="fullName">Your Full Name *</label>
@@ -1607,9 +1690,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1688,7 +1788,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

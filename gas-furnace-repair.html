@@ -32,82 +32,133 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/gas-furnace-repair",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/gas-furnace-repair#service",
+      "name": "Gas Furnace Repair in Miami, FL",
+      "serviceType": "Gas Furnace Repair",
+      "url": "https://miamiairconditioningheatrepair.com/gas-furnace-repair",
+      "description": "Dealing with furnace ignition problems, unusual noises or inconsistent heating? Get professional gas furnace repair in Miami to identify equipment issues and discuss appropriate repair solutions.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Gas Furnace Repair",
-        "item": "https://miamiairconditioningheatrepair.com/gas-furnace-repair"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/gas-furnace-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gas Furnace Repair",
+          "item": "https://miamiairconditioningheatrepair.com/gas-furnace-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/gas-furnace-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why Does My Gas Furnace Light and Then Shut Off?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A furnace may light and then shut down if the flame-sensing system does not confirm that the burner flame is established. A faulty flame sensor is one possibility, but ignition, burner, gas-control, and safety-related faults can produce similar symptoms. The operating sequence needs to be checked to identify the cause."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What Causes a Gas Furnace Not to Ignite? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Possible causes include a thermostat or electrical issue, faulty ignitor, pressure-switch problem, inducer motor fault, gas valve issue, or control-board problem. The correct diagnosis depends on where the startup sequence stops."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Faulty Flame Sensor Stop a Furnace From Working? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The flame sensor helps confirm that the burner has ignited. If the control system does not receive the expected signal, it may shut off the gas supply as a safety response. The sensor and related burner operation should be checked before deciding on cleaning or replacement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Does My Furnace Blower Run Without Producing Heat? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The blower may continue circulating air even when the burners are not operating. An ignition failure, interrupted heating cycle, control issue, or another component fault may be responsible. The furnace needs to be inspected to distinguish a heat-generation problem from a blower problem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What Causes a Furnace to Make a Loud Bang at Startup? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A loud bang may indicate delayed ignition, where gas ignites later than intended. Burner or ignition problems can contribute to this condition. Stop using a furnace that repeatedly makes loud ignition noises and arrange a professional inspection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a Cracked Gas Furnace Heat Exchanger Dangerous? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A compromised heat exchanger can create a serious combustion-safety concern, allowing deadly carbon monoxide gas to enter indoor living spaces. The equipment should be assessed by a qualified technician, and it should not continue operating if it is suspected to be unsafe. If a CO alarm sounds or exposure is suspected, leave the property and call 911."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How Much Does Gas Furnace Repair Cost in Miami? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on the furnace model, the fault, required components, and the work involved. An inspection is needed to identify the problem and provide an appropriate repair estimate. We provide upfront pricing before any work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is It Better to Repair or Replace an Older Gas Furnace? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "That depends on the furnace's overall condition, repair history, parts availability, and the cost of the required work. A single repairable component does not automatically mean the furnace needs replacement. If a compromised heat exchanger or multiple recurring problems make continuing repairs impractical, we explain the options for a high-efficiency furnace replacement in Miami , an engineered new furnace installation , or a modern heat pump heating system ."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -304,7 +355,7 @@
 
           <div class="service-hero-actions">
             <!-- 50% Orange CTA / 50% Blue CTA -->
-            <a href="#quote-form" class="btn-cta-orange btn-lg">
+            <a href="tel:3059026113" class="btn-cta-orange btn-lg">
               Arrange Furnace Inspection &rarr;
             </a>
             <a href="tel:3055554328" class="btn-hero-dark-call">
@@ -463,7 +514,7 @@
         <p style="font-size: 1.02rem; font-weight: 700; color: var(--primary-navy); margin: 0 0 16px;">
           Having trouble with your gas furnace? Contact Miami Air Conditioning Repair to discuss the symptoms and arrange service.
         </p>
-        <a href="#quote-form" class="btn-cta-orange" style="display: inline-flex;">Schedule Diagnostic Assessment &rarr;</a>
+        <a href="tel:3059026113" class="btn-cta-orange" style="display: inline-flex;">Schedule Diagnostic Assessment &rarr;</a>
       </div>
     </div>
   </section>
@@ -1237,7 +1288,7 @@
         <p style="font-size: 0.98rem; color: var(--body-text); margin-bottom: 18px;">
           For homeowners whose existing furnace is no longer a practical repair candidate, our <a href="/ac-replacement" style="color: var(--primary-blue); font-weight: 700; text-decoration: underline;">furnace replacement service</a> can help with the next step.
         </p>
-        <a href="#quote-form" class="btn-cta-orange">Discuss Repair vs. Replacement &rarr;</a>
+        <a href="tel:3059026113" class="btn-cta-orange">Discuss Repair vs. Replacement &rarr;</a>
       </div>
     </div>
   </section>
@@ -1289,7 +1340,7 @@
         <p style="font-size: 1.05rem; font-weight: 600; color: var(--primary-navy); margin-bottom: 16px;">
           Contact Miami Air Conditioning Repair to discuss the furnace symptoms and arrange an assessment for a repair estimate.
         </p>
-        <a href="#quote-form" class="btn-cta-blue">Request Written Estimate &rarr;</a>
+        <a href="tel:3059026113" class="btn-cta-blue">Request Written Estimate &rarr;</a>
       </div>
     </div>
   </section>
@@ -1404,7 +1455,7 @@
               <li><strong>Scope:</strong> Replaced OEM ignitor, cleaned flame sensor, and tested 5 consecutive cycles.</li>
               <li><strong>Result:</strong> Smooth, instantaneous burner ignition and consistent heat output.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Similar Repair &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Similar Repair &rarr;</a>
           </div>
         </div>
 
@@ -1427,7 +1478,7 @@
               <li><strong>Scope:</strong> Replaced draft inducer assembly, cleaned flue pressure port, and tested draft.</li>
               <li><strong>Result:</strong> Pressure switch proved at -0.65" W.C. and safe continuous heating.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-blue">Diagnose Furnace &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-blue">Diagnose Furnace &rarr;</a>
           </div>
         </div>
 
@@ -1450,7 +1501,7 @@
               <li><strong>Scope:</strong> Replaced gas valve, adjusted manifold to 3.5" W.C., and tested CO levels.</li>
               <li><strong>Result:</strong> Flawless flame modulation, zero gas leaks, and optimal combustion efficiency.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Quote &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Quote &rarr;</a>
           </div>
         </div>
       </div>
@@ -2023,9 +2074,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -2104,7 +2172,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

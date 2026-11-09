@@ -32,82 +32,141 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/ac-repair",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-repair#service",
+      "name": "AC Repair in Miami, FL",
+      "serviceType": "Air Conditioning Repair",
+      "url": "https://miamiairconditioningheatrepair.com/ac-repair",
+      "description": "AC not cooling, leaking or making unusual noises? Get professional AC repair in Miami from Miami Air Conditioning Repair. Schedule an inspection for your cooling system.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "AC Repair Miami",
-        "item": "https://miamiairconditioningheatrepair.com/ac-repair"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AC Repair",
+          "item": "https://miamiairconditioningheatrepair.com/ac-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why Is My Air Conditioner Running but Not Cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An air conditioner can keep running without cooling properly because of restricted airflow, refrigerant problems, a frozen evaporator coil, thermostat issues, or a malfunctioning component. An equipment assessment is needed to identify the actual cause."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Is My AC Blowing Warm Air? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Warm air from your vents may indicate a cooling-system problem, restricted airflow, a refrigerant issue, or an electrical or mechanical fault. The source needs to be identified before the appropriate repair can be recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Is My AC Leaking Water Inside the House? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A clogged condensate drain, overflowing drain pan, damaged drainage component, or frozen evaporator coil can cause water to collect around an indoor AC unit. If water is near electrical equipment, switch off the system if it is safe to do so and arrange professional assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Does My AC Keep Turning On and Off? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Frequent cycling may be related to thermostat problems, restricted airflow, equipment sizing, or a malfunctioning component. An assessment can help determine why the system repeatedly shuts down."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What Air Conditioner Brands Do You Repair? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We service Carrier, Trane, Lennox, Rheem, Goodman, York, Daikin, Ruud, Amana, and all other major HVAC manufacturer brands. Contact us with your equipment's brand and model number so we can confirm whether it falls within our service capabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How Much Does AC Repair Cost in Miami? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AC repair costs depend on the type of equipment, the underlying fault, the parts required, and the work involved. We explain the recommended repair and provide an estimate before beginning approved work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do You Offer Same-Day AC Repair? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Same-day appointments are available subject to scheduling and service availability across Miami-Dade, Broward, and Palm Beach counties. Contact us early to ask about the next available appointment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do You Repair Residential and Commercial Air Conditioning Systems? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide residential and commercial AC repair for single-family homes, condominiums, apartments, retail storefronts, offices, and commercial facilities. Contact us with your system details to discuss the repair you need."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What Should I Do If My AC Stops Working? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start by checking your thermostat settings and air filter, if it is safe to do so. If the system still does not operate, avoid opening electrical panels or attempting refrigerant repairs yourself. If you notice a burning smell, damaged wiring, or water near electrical components, switch the system off if it is safe and arrange professional assistance."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -460,7 +519,7 @@
             </li>
           </ul>
 
-          <a href="#quote-form" class="btn-cta-blue" style="display: inline-flex;">
+          <a href="tel:3059026113" class="btn-cta-blue" style="display: inline-flex;">
             Schedule Diagnostic Assessment &rarr;
           </a>
         </div>
@@ -972,7 +1031,7 @@
               <li><strong>Action:</strong> Replaced with OEM heavy-duty components and tightened electrical lugs.</li>
               <li><strong>Outcome:</strong> System returned to 55°F vent temperature in 40 minutes; amp-draw verified.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Similar Service &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Similar Service &rarr;</a>
           </div>
         </div>
 
@@ -992,7 +1051,7 @@
               <li><strong>Action:</strong> Nitrogen blow-out, antimicrobial chemical flush, and float switch recalibration.</li>
               <li><strong>Outcome:</strong> Unimpeded gravity drainage restored, preventing thousands in ceiling water damage.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-blue">Request Similar Service &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-blue">Request Similar Service &rarr;</a>
           </div>
         </div>
 
@@ -1012,7 +1071,7 @@
               <li><strong>Action:</strong> Electronic halogen leak detection, brazed fitting repair, and micron vacuum test.</li>
               <li><strong>Outcome:</strong> Weighed in factory-spec R-410A charge; restored full 20°F delta-T cooling split.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Similar Service &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Similar Service &rarr;</a>
           </div>
         </div>
       </div>
@@ -1546,9 +1605,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1627,7 +1703,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

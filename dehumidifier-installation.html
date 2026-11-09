@@ -32,82 +32,149 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/dehumidifier-installation",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/dehumidifier-installation#service",
+      "name": "Dehumidifier Installation in Miami, FL",
+      "serviceType": "Dehumidifier Installation",
+      "url": "https://miamiairconditioningheatrepair.com/dehumidifier-installation",
+      "description": "Struggling with excessive indoor humidity in your Miami home? Explore whole-home dehumidifier installation to help manage moisture levels and create a more comfortable indoor environment.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Dehumidifier Installation",
-        "item": "https://miamiairconditioningheatrepair.com/dehumidifier-installation"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/dehumidifier-installation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Dehumidifier Installation",
+          "item": "https://miamiairconditioningheatrepair.com/dehumidifier-installation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/dehumidifier-installation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does a whole-home dehumidifier do?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A whole-home dehumidifier removes excess moisture from indoor air across the entire house. It operates through your HVAC ductwork or a dedicated duct arrangement, pulling in humid air, extracting moisture, and distributing drier air back into living areas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is a whole-home dehumidifier different from an air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An air conditioner cools the air and dehumidifies as a secondary effect while running. A whole-home dehumidifier focuses specifically on removing moisture and can run independently of temperature demand, managing humidity even when cooling is not required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a whole-home dehumidifier work with my existing HVAC system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In many homes, yes. A whole-home dehumidifier can often be integrated into existing ductwork or installed with its own return/supply paths. Compatibility depends on duct layout, available physical space, and equipment arrangement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is a whole-home dehumidifier usually installed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is commonly installed near the air handler in an attic, mechanical closet, basement, or utility space, depending on available clearance, duct access, electrical supply, and drainage routing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a whole-home dehumidifier drain the water it collects?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike portable units with water buckets, a whole-home system connects to a permanent drain line. Collected moisture drains automatically via a gravity drain line or an auxiliary condensate removal pump."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a whole-home dehumidifier run when the AC is not cooling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Because it is controlled by its own humidistat or compatible thermostat, it can operate whenever indoor relative humidity rises above your chosen setting, regardless of whether the AC is running."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a whole-home dehumidifier lower my electric bill?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It uses electricity to operate, but because dry air feels cooler at higher temperatures, many homeowners find they can raise their thermostat setting by 2 to 3 degrees without sacrificing comfort, helping offset operating costs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size dehumidifier do I need for my home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sizing depends on home square footage, ceiling heights, air leakage, local humidity levels, occupant count, and HVAC configuration. Sizing is measured in pints of moisture removed per day (typically 70 to 130+ pints)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a whole-home dehumidifier prevent mold?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keeping indoor relative humidity consistently between 45% and 50% helps create conditions less favorable for mold growth. However, it does not fix plumbing leaks, roof leaks, or remove existing mold colonies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often does a whole-home dehumidifier need maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most whole-home dehumidifiers require routine air filter cleaning or replacement once or twice a year, along with an annual check of the condensate drain line, P-trap, and safety float switches."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -304,7 +371,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-quote">
+              <a href="tel:3059026113" class="btn-quote">
                 Request Installation Estimate &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -425,7 +492,7 @@
               <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
                 We evaluate your existing HVAC equipment, return airflow, and latent moisture load to size the right whole-home solution.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Request In-Home Assessment &rarr;
               </a>
             </div>
@@ -1526,7 +1593,7 @@
         </div>
         <div class="quote-form-card">
             <div class="quote-form-badge">Fast Response</div>
-            <form class="ajax-quote-form" id="serviceForm" onsubmit="event.preventDefault(); alert('Thank you! Your estimate request has been received. Our team will contact you shortly.');">
+            <form class="ajax-quote-form" id="serviceForm" >
               <div class="quote-form-grid">
                 <div class="form-group">
                   <label class="form-label" for="fullName">Your Full Name *</label>
@@ -1592,9 +1659,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1673,7 +1757,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

@@ -32,82 +32,133 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/ac-replacement",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-replacement#service",
+      "name": "AC Replacement in Miami, FL",
+      "serviceType": "Air Conditioning Replacement",
+      "url": "https://miamiairconditioningheatrepair.com/ac-replacement",
+      "description": "Need to replace an aging or unreliable air conditioner? Get AC replacement in Miami with guidance on system selection, cooling requirements, equipment compatibility and installation.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "AC Replacement",
-        "item": "https://miamiairconditioningheatrepair.com/ac-replacement"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-replacement#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "AC Replacement",
+          "item": "https://miamiairconditioningheatrepair.com/ac-replacement"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/ac-replacement#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How Long Does Residential AC Replacement Take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The time required depends on the equipment being replaced, the system type, and the condition of the existing installation. A straightforward equipment change-out may take less time than a project requiring ductwork, electrical, refrigerant line, or other modifications. The expected timeline can be discussed once the existing system has been assessed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I Replace Only the Outdoor AC Condenser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in some cases. However, the existing indoor air handler and evaporator coil must be compatible with the replacement condenser. Our technicians can assess the equipment specifications and explain whether a condenser-only replacement is suitable or whether additional components need to be replaced."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I Need to Replace My Air Handler When Replacing the AC Condenser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. If the existing air handler and evaporator coil are compatible with the new outdoor unit and remain in suitable condition, they may be reusable. If they are incompatible, damaged, or do not meet the replacement system's requirements, indoor equipment replacement may also be necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Existing Ductwork and Refrigerant Lines Be Reused?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Existing ductwork and refrigerant lines may be reused if they are properly sized, in suitable condition, and compatible with the new equipment. Leaks, restrictions, contamination, incorrect sizing, or manufacturer requirements may make modifications or replacement necessary. These components should be evaluated before the replacement begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should My New AC Have the Same Tonnage as the Old One?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. The correct capacity should be based on your home's cooling requirements rather than simply copying the old unit's tonnage. Property layout, insulation, windows, heat gain, and ductwork conditions can all influence the appropriate system size."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I Need a Permit to Replace an AC System in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Permit requirements depend on the type and scope of replacement work and the applicable local jurisdiction. The relevant requirements should be checked for your property's location and the work being performed before the project begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What Should an AC Replacement Estimate Include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your estimate should identify the equipment being replaced, the proposed replacement system or components, and the work included in the project. It should also explain whether existing refrigerant lines, electrical connections, drainage, ductwork, or other installation components require additional work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is It Better to Repair or Replace an Older Air Conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The decision depends on the system's age, repair history, condition, cooling performance, and cost of the required repair. If the problem is isolated and the system remains in good condition, repair may be reasonable. If expensive repairs keep recurring or several major components are deteriorating, replacing the system may be a more practical long-term decision."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -426,7 +477,7 @@
           <p style="font-size: 0.92rem; color: var(--muted-text); line-height: 1.55; margin-bottom: 20px;">
             Before recommending a complete change-out, we consider the system's condition, cooling requirements, and connected components including refrigerant lines, electrical connections, condensate drainage, and existing ductwork.
           </p>
-          <a href="#quote-form" class="btn-cta-blue" style="width: 100%; text-align: center; justify-content: center;">
+          <a href="tel:3059026113" class="btn-cta-blue" style="width: 100%; text-align: center; justify-content: center;">
             Request Full System Estimate &rarr;
           </a>
         </div>
@@ -444,7 +495,7 @@
           <p style="font-size: 0.92rem; color: var(--muted-text); line-height: 1.55; margin-bottom: 20px;">
             However, the existing indoor air handler and evaporator coil must be compatible with the proposed outdoor equipment. Our technicians assess specifications, refrigerant requirements, and manufacturer matching options before recommending condenser-only work.
           </p>
-          <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; justify-content: center;">
+          <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; justify-content: center;">
             Assess Condenser Replacement &rarr;
           </a>
         </div>
@@ -461,7 +512,7 @@
           <p style="font-size: 0.92rem; color: var(--muted-text); line-height: 1.55; margin-bottom: 20px;">
             We assess the existing condenser, indoor equipment specifications, and overall system condition to determine whether an air handler replacement, evaporator coil replacement, or more extensive system change-out is appropriate.
           </p>
-          <a href="#quote-form" class="btn-cta-blue" style="width: 100%; text-align: center; justify-content: center;">
+          <a href="tel:3059026113" class="btn-cta-blue" style="width: 100%; text-align: center; justify-content: center;">
             Evaluate Indoor Equipment &rarr;
           </a>
         </div>
@@ -631,7 +682,7 @@
             <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
               Our team assesses your equipment to see whether a repairable component or a full replacement makes more financial and comfort sense.
             </p>
-            <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+            <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
               Request Diagnostic Assessment &rarr;
             </a>
           </div>
@@ -1222,7 +1273,7 @@
             At Miami Air Conditioning Repair, our proposed replacement scope clearly details which equipment is being replaced and what work is included without hidden fees.
           </p>
         </div>
-        <a href="#quote-form" class="btn-cta-orange" style="padding: 13px 26px; font-size: 1rem;">
+        <a href="tel:3059026113" class="btn-cta-orange" style="padding: 13px 26px; font-size: 1rem;">
           Request Replacement Estimate &rarr;
         </a>
       </div>
@@ -1262,7 +1313,7 @@
               <li><strong>Scope:</strong> Matched condenser, air handler, line set flush, and code permits.</li>
               <li><strong>Result:</strong> Quiet operation, optimal humidity control, and lower monthly power bills.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Similar Replacement &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Similar Replacement &rarr;</a>
           </div>
         </div>
 
@@ -1285,7 +1336,7 @@
               <li><strong>Scope:</strong> Condenser change-out, nitrogen pressure test, and full system charge.</li>
               <li><strong>Result:</strong> Restored dependable cooling while preserving the usable indoor air handler.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-blue">Assess Your Condenser &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-blue">Assess Your Condenser &rarr;</a>
           </div>
         </div>
 
@@ -1308,7 +1359,7 @@
               <li><strong>Scope:</strong> Air handler replacement, plenum reseal, and float safety switch.</li>
               <li><strong>Result:</strong> Clean air circulation, no ceiling leak risk, and renewed cooling efficiency.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Indoor Coil Assessment &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Indoor Coil Assessment &rarr;</a>
           </div>
         </div>
       </div>
@@ -1533,7 +1584,7 @@
             </a>
             <span class="service-faq-hours">Available 24/7 for Inquiries</span>
           </div>
-          <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; margin-top: 18px;">
+          <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; margin-top: 18px;">
             Schedule In-Home Consultation &rarr;
           </a>
         </div>
@@ -1873,9 +1924,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1954,7 +2022,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

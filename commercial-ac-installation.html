@@ -32,82 +32,149 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com//commercial-ac-installation",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ac-installation#service",
+      "name": "Commercial AC Installation in Miami, FL",
+      "serviceType": "Commercial Air Conditioning Installation",
+      "url": "https://miamiairconditioningheatrepair.com/commercial-ac-installation",
+      "description": "Planning commercial AC installation in Miami? Get cooling system solutions based on your building layout, occupancy, equipment requirements and daily business operations.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Commercial AC Installation",
-        "item": "https://miamiairconditioningheatrepair.com//commercial-ac-installation"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ac-installation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Commercial AC Installation",
+          "item": "https://miamiairconditioningheatrepair.com/commercial-ac-installation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/commercial-ac-installation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you provide commercial air conditioning installation in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Miami Air Conditioning Repair provides complete commercial HVAC installation services for new construction, building renovations, and existing equipment replacements across Miami-Dade and Broward County."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you install commercial rooftop AC units?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We install and replace commercial rooftop units (RTUs), coordinating curb adapters, licensed crane rigging, electrical disconnects, and duct connections for offices, retail, and commercial properties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you replace an existing commercial rooftop unit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A rooftop unit replacement involves reviewing the existing equipment capacity, roof arrangement, and curb footprint. The replacement should be selected based on current building cooling loads, not simply by matching the old unit's size."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know what size commercial AC system my building needs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Equipment sizing depends on building square footage, ceiling heights, window solar gain, occupancy count, computers/appliances, and operating hours. A site-specific commercial load calculation is far more accurate than rough square-footage estimates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I install a new commercial AC system without replacing ductwork?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In many cases, yes. Existing ductwork can be reused if its condition, static pressure capacity, and layout match the airflow requirements of the new equipment. If layout modifications or leaks are detected, transitional modifications can be bundled."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does commercial AC installation take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard single RTU replacement can often be hoisted and set in one day, typically scheduled over a weekend to avoid business disruption. Multi-unit installations or full building retrofits are planned around defined project milestones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does commercial AC installation cost in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs depend on equipment tonnage, SEER/IEER efficiency rating, crane hoisting requirements, curb adapter fabrication, and municipal permit fees. Contact our commercial team for a comprehensive written proposal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do commercial AC installations require permits in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Commercial mechanical installations and replacements require building permits in Miami-Dade County and municipal jurisdictions. We handle permit applications, Florida product approvals, hurricane tie-down engineering, and final inspections."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can installation be completed while the business remains open?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We routinely schedule crane lifts, equipment change-outs, and heavy roof operations during off-peak hours, evenings, or weekends so your customers and staff experience zero business interruptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide estimates for commercial rooftop unit installation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We provide comprehensive written estimates detailing equipment specifications, scope of work, warranty coverage, crane logistics, and project timelines for commercial property owners and facilities managers."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -304,7 +371,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-quote">
+              <a href="tel:3059026113" class="btn-quote">
                 Request Installation Estimate &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -425,7 +492,7 @@
               <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
                 We assess your building layout, internal heat loads, roof curb condition, and duct connections to engineer the ideal system.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Request Site Assessment &rarr;
               </a>
             </div>
@@ -1467,7 +1534,7 @@
         </div>
         <div class="quote-form-card">
             <div class="quote-form-badge">Fast Commercial Response</div>
-            <form class="ajax-quote-form" id="serviceForm" onsubmit="event.preventDefault(); alert('Thank you! Your commercial request has been received. Our dispatch team will contact you promptly.');">
+            <form class="ajax-quote-form" id="serviceForm" >
               <div class="quote-form-grid">
                 <div class="form-group">
                   <label class="form-label" for="companyName">Business / Company Name *</label>
@@ -1550,9 +1617,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1631,7 +1715,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

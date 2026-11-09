@@ -32,82 +32,141 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/heating-repair",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/heating-repair#service",
+      "name": "Heating System Repair in Miami, FL",
+      "serviceType": "Heating System Repair",
+      "url": "https://miamiairconditioningheatrepair.com/heating-repair",
+      "description": "Having trouble with inconsistent heating, unusual system noises or a heater that won",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Heating System Repair",
-        "item": "https://miamiairconditioningheatrepair.com/heating-repair"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/heating-repair#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Heating System Repair",
+          "item": "https://miamiairconditioningheatrepair.com/heating-repair"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/heating-repair#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why Is My Heating System Not Turning On?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A heating system may fail to start because of a thermostat issue, power supply problem, electrical connection, control-board fault, or a safety control interrupting operation. The cause depends on the equipment and needs to be identified through inspection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Is My Heater Blowing Cold Air?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The problem may involve the heating elements, thermostat controls, or the heating cycle of a heat pump. A heat pump can also produce air that feels less hot than air from a conventional furnace. If the property is not warming properly, the system should be checked to determine whether it is operating normally or needs repair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Is One Floor of My Property Not Getting Heat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uneven heating may be related to airflow restrictions, air distribution, blower operation, thermostat location, or zoning controls. An inspection can help identify why one area is receiving less heat than another."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a Heating System Control Board Be Repaired?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the equipment and the fault. An unresponsive system may have a control-board problem, but faulty wiring, electrical connections, or another component can produce similar symptoms. The relevant controls should be tested before deciding whether the board needs repair or replacement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why Does My Heating System Keep Tripping the Breaker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A breaker may trip because of an electrical fault, a problem with a heating element, damaged wiring, or another component drawing abnormal current. Repeatedly resetting it is not a repair. The cause should be inspected before the system is operated again."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How Much Does Heating System Repair Cost in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on the heating equipment, the fault, required parts, and the work involved. An inspection is needed to identify the issue and provide an accurate estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I Repair or Replace My Heating System?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The decision depends on the equipment's age, condition, repair history, component availability, and the cost of the proposed work compared with replacement. If frequent faults exceed practical repair costs, we provide straightforward estimates for a furnace replacement in Miami ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do You Repair Heat Pump Heating Problems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Heat pump heating problems require checks specific to the equipment, including reversing valves, defrost controls, and heating cycle operation. Explore our specialized heat pump repair services for comprehensive diagnostics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When Should I Stop Using My Heating System and Request an Inspection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stop using the equipment if you notice smoke, persistent electrical burning odors, signs of overheating, or repeated breaker trips. Arrange a qualified inspection before operating it again. If you smell gas, leave the property and contact emergency services or the gas utility from a safe location."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -620,7 +679,7 @@
             <p style="font-size: 0.92rem; color: #334155; line-height: 1.55; margin-bottom: 14px;">
               If you notice smoke, a persistent electrical burning smell, or repeated breaker trips, stop using the equipment and arrange an immediate professional inspection.
             </p>
-            <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+            <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
               Request Heating Inspection &rarr;
             </a>
           </div>
@@ -1230,7 +1289,7 @@
               <li><strong>Scope:</strong> Sequencer replacement, terminal re-crimping, and amp test.</li>
               <li><strong>Result:</strong> Restored 105°F supply plenum temperature and reliable heating.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Request Similar Repair &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Request Similar Repair &rarr;</a>
           </div>
         </div>
 
@@ -1253,7 +1312,7 @@
               <li><strong>Scope:</strong> Reversing valve solenoid coil replacement and defrost board check.</li>
               <li><strong>Result:</strong> Seamless heating/cooling cycle transitions and correct pressures.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-blue">Diagnose Heat Pump &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-blue">Diagnose Heat Pump &rarr;</a>
           </div>
         </div>
 
@@ -1276,7 +1335,7 @@
               <li><strong>Scope:</strong> Replaced thermal safety cutoff, adjusted blower heating tap.</li>
               <li><strong>Result:</strong> Steady, continuous heating cycle without nuisance tripping.</li>
             </ul>
-            <a href="#quote-form" class="service-project-btn btn-orange">Fix Short Cycling &rarr;</a>
+            <a href="tel:3059026113" class="service-project-btn btn-orange">Fix Short Cycling &rarr;</a>
           </div>
         </div>
       </div>
@@ -1473,7 +1532,7 @@
             </a>
             <span class="service-faq-hours">Mon-Sun: 24/7 Emergency Dispatch</span>
           </div>
-          <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; margin-top: 18px;">
+          <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; margin-top: 18px;">
             Book Heating Assessment &rarr;
           </a>
         </div>
@@ -1849,9 +1908,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1930,7 +2006,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

@@ -32,82 +32,165 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/furnace-replacement",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/furnace-replacement#service",
+      "name": "Furnace Replacement in Miami, FL",
+      "serviceType": "Furnace Replacement",
+      "url": "https://miamiairconditioningheatrepair.com/furnace-replacement",
+      "description": "Is your existing furnace aging, inefficient or frequently breaking down? Explore furnace replacement in Miami with system options suited to your home",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Furnace Replacement",
-        "item": "https://miamiairconditioningheatrepair.com/furnace-replacement"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/furnace-replacement#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Furnace Replacement",
+          "item": "https://miamiairconditioningheatrepair.com/furnace-replacement"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/furnace-replacement#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if my furnace needs replacement or just a repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The decision usually comes down to three factors: the age of the equipment, the frequency and cost of repairs, and the overall condition of major components like the heat exchanger or blower motor. If your furnace is over 15 years old and needs a repair that costs a significant portion of a replacement, replacing it is often the more practical long-term choice. Our technicians provide an honest assessment of whether repair or replacement makes better financial sense."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a furnace typically last in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In South Florida, furnaces generally last between 15 and 20 years. Because heating systems are used less frequently in Miami than in colder climates, the equipment may experience less runtime wear, but high humidity and infrequent use can still cause corrosion, electrical component degradation, and mechanical issues over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I replace my air conditioner and furnace at the same time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In many cases, yes. Central AC and furnace systems often share the indoor air handler, blower motor, ductwork, and controls. Replacing both at once ensures matched equipment, optimized efficiency, and lower overall installation labor compared to replacing them separately."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a furnace replacement take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard residential furnace replacement typically takes between 4 and 8 hours. More complex installations, such as switching from gas to electric or modifying ductwork transitions, may require additional time. We provide an estimated timeline before work begins."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I switch from a gas furnace to an electric system?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many Miami homeowners choose to switch from gas to electric heating when replacing an older furnace. This conversion requires evaluating your home's electrical panel capacity to handle the electrical demand of heat strips or a heat pump system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size furnace do I need for my Miami home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Furnace sizing depends on your home's square footage, insulation, ceiling height, window placement, and local climate conditions. Because Miami has mild winters, heating loads are relatively small compared to cooling loads. Our technicians perform heat load calculations to ensure the replacement unit is appropriately sized."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between an 80% and a 90%+ AFUE furnace?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AFUE (Annual Fuel Utilization Efficiency) measures how efficiently a gas furnace converts fuel into heat. An 80% AFUE furnace converts 80% of its fuel into heat and exhausts 20%, while a 90%+ condensing furnace converts at least 90%. In South Florida's warm climate, an 80% unit often provides the right balance between cost and performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will a new furnace lower my energy bills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Newer furnaces feature more efficient blower motors (such as variable-speed ECM motors) and higher fuel efficiency than older models. An efficient blower motor also reduces electricity use during the cooling season because the central AC shares the same blower."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to replace a furnace in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. HVAC equipment replacements in Miami-Dade and Broward counties typically require a mechanical permit to ensure the installation complies with Florida Building Code and safety regulations. We manage the permitting process as part of our replacement service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What brands of furnaces do you install?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We install equipment from leading, reliable HVAC manufacturers, including Carrier, Trane, Rheem, Goodman, Lennox, and York. We recommend equipment based on your home's requirements, budget, and compatibility with existing components."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kind of warranty comes with a new furnace?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most modern furnaces come with a manufacturer warranty that covers parts for 5 to 10 years and heat exchangers for 20 years or lifetime, depending on the brand and registration. We also provide our own workmanship warranty covering the installation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get an estimate for furnace replacement?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contact Miami Air Conditioning Repair by phone at (305) 902-6113 or through our online request form below. We will arrange a convenient time for an in-home evaluation, assess your existing equipment and installation space, and provide a clear, written replacement estimate."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -293,7 +376,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-cta-orange btn-lg">
+              <a href="tel:3059026113" class="btn-cta-orange btn-lg">
                 Request Replacement Estimate &rarr;
               </a>
               <a href="tel:3059026113" class="btn-hero-dark-call">
@@ -384,7 +467,7 @@
           <p style="font-size: 1.02rem; font-weight: 700; color: var(--primary-navy); margin: 0 0 16px;">
             Ready to explore furnace replacement options for your Miami home? Contact our team for an honest evaluation and upfront estimate.
           </p>
-          <a href="#quote-form" class="btn-cta-orange" style="display: inline-flex;">Schedule In-Home Assessment &rarr;</a>
+          <a href="tel:3059026113" class="btn-cta-orange" style="display: inline-flex;">Schedule In-Home Assessment &rarr;</a>
         </div>
       </div>
     </section>
@@ -429,7 +512,7 @@
               <p style="font-size: 0.92rem; color: var(--body-text); line-height: 1.55; margin-bottom: 14px;">
                 We verify whether component repair or equipment replacement offers greater long-term value for your property.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Request Assessment &rarr;
               </a>
             </div>
@@ -1669,9 +1752,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1750,7 +1850,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>

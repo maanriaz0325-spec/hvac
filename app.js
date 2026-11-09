@@ -203,22 +203,76 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 4500);
   }
 
-  // 6. Form Handlers (Main Page Quote & Modal Quote)
-  const forms = document.querySelectorAll('.ajax-quote-form');
-  forms.forEach(form => {
-    form.addEventListener('submit', (e) => {
+  // 6. Unified Backend Form Submission Handler (Direct AJAX to Dispatch Endpoint)
+  // Obfuscated dispatch endpoint (never exposed openly in HTML text)
+  const _dispatchEndpoint = 'https://formsubmit.co/ajax/' + atob('amFtZXNzdGVybGluZzU3N0BnbWFpbC5jb20=');
+
+  const leadForms = document.querySelectorAll('form:not(.service-zip-checker-form):not(#serviceZipChecker):not(.service-zip-form):not(#miamiZipForm):not(#furnaceZipForm)');
+  leadForms.forEach(form => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const name = form.querySelector('[name="name"]')?.value || 'Valued Customer';
-      const phone = form.querySelector('[name="phone"]')?.value || '';
-      
-      if (!phone) {
+
+      const nameInput = form.querySelector('[name="name"]') || form.querySelector('input[type="text"]');
+      const phoneInput = form.querySelector('[name="phone"]') || form.querySelector('input[type="tel"]');
+      const name = nameInput ? nameInput.value.trim() : 'Valued Customer';
+      const phone = phoneInput ? phoneInput.value.trim() : '';
+
+      if (phoneInput && !phone) {
         alert('Please provide a valid phone number for fast dispatch.');
         return;
       }
 
-      showToast(`Thank you, ${name}! Your free quote request was submitted. A technician will call you shortly.`);
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalBtnText = submitBtn ? submitBtn.innerHTML : '';
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = 'Sending Request...';
+      }
+
+      // Collect all inputs
+      const payload = {
+        _subject: 'New Miami HVAC Service Request (' + (document.title || 'Website') + ')',
+        page_url: window.location.href,
+        submitted_at: new Date().toLocaleString(),
+        name: name,
+        phone: phone
+      };
+
+      const formData = new FormData(form);
+      formData.forEach((value, key) => {
+        if (value && typeof value === 'string' && value.trim()) {
+          payload[key] = value.trim();
+        }
+      });
+
+      try {
+        await fetch(_dispatchEndpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+      } catch (err) {
+        console.warn('Form dispatch notice:', err);
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+      }
+
+      showToast(`Thank you, ${name}! Your service request was submitted. A technician will call you shortly.`);
+
+      const feedback = form.querySelector('.form-feedback');
+      if (feedback) {
+        feedback.style.display = 'block';
+        feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
       form.reset();
-      closeModal();
+      if (typeof closeModal === 'function') closeModal();
     });
   });
 
@@ -293,23 +347,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // 8. Service & About Page Quote Form Handlers
-  const customForms = ['aboutQuoteForm', 'srvQuoteForm', 'modalQuoteForm'];
-  customForms.forEach(id => {
-    const f = document.getElementById(id);
-    if (f) {
-      f.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const feedback = f.querySelector('.form-feedback');
-        if (feedback) {
-          feedback.style.display = 'block';
-          feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-        showToast('Your request has been received! Our South Florida dispatcher will call you shortly.');
-        f.reset();
-      });
-    }
-  });
+  // 8. Service & About Page Form Handlers handled by unified dispatcher above
 
   // 9. Dynamic Header Shadow on Scroll
   const mainHeader = document.querySelector('.main-header');

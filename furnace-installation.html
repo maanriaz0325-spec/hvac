@@ -32,82 +32,141 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/furnace-installation",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
+  
+  <!-- JSON-LD Service, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/furnace-installation#service",
+      "name": "Furnace Installation in Miami, FL",
+      "serviceType": "Furnace Installation",
+      "url": "https://miamiairconditioningheatrepair.com/furnace-installation",
+      "description": "Planning a new furnace installation in Miami? Get professional installation guidance based on your home",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Furnace Installation",
-        "item": "https://miamiairconditioningheatrepair.com/furnace-installation"
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida"
+        }
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Residential and commercial property owners"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/furnace-installation#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Furnace Installation",
+          "item": "https://miamiairconditioningheatrepair.com/furnace-installation"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/furnace-installation#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does it cost to install a new furnace in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on the furnace type, capacity, efficiency, ductwork condition, equipment location and any additional electrical, fuel or venting work. An accurate estimate requires understanding the equipment and installation scope for your property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a furnace installation take? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The time depends on the equipment and the work involved. A straightforward installation can take less time than a project requiring duct modifications, electrical upgrades, new fuel connections or venting changes. The expected schedule should be discussed after the installation scope is understood."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What size furnace do I need for my home? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The correct size depends on the property's heating load, not just its square footage. Insulation, windows, ceiling height, layout and ductwork all influence the required capacity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a new furnace connect to my existing ductwork? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It may be possible if the existing supply and return ducts can support the new equipment's airflow requirements. The duct system should be evaluated before the furnace is selected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a gas furnace better than an electric furnace? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Neither option is automatically better for every property. Gas and electric furnaces have different installation requirements and operating costs. The appropriate choice depends on available utilities, equipment specifications and the property's heating needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a heat pump the same as a furnace? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A furnace generates heat using fuel combustion or electric resistance. A heat pump transfers heat and can provide both heating and cooling. It is a separate system with its own equipment selection and installation requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does furnace installation require a permit in Miami? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some mechanical, electrical and gas-related work requires permits and inspections. The exact requirements depend on the work and the property's jurisdiction. Miami-Dade County's unincorporated area and incorporated municipalities have different permitting authorities, so requirements should be checked for the specific property."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I install a high-efficiency furnace? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The available options depend on the furnace type, equipment specifications and property requirements. For gas furnaces, AFUE is an important efficiency rating. The equipment should still be properly sized and compatible with the installation conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I ask before approving a furnace installation estimate? +",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ask which equipment model and capacity are included, whether the existing ductwork is suitable, what electrical or fuel connections are required, whether additional modifications are expected, and how applicable permits and inspections will be handled. A clear project scope makes estimates easier to compare."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="service-page">
@@ -293,7 +352,7 @@
             </div>
 
             <div class="service-hero-actions">
-              <a href="#quote-form" class="btn-cta-orange btn-lg">
+              <a href="tel:3059026113" class="btn-cta-orange btn-lg">
                 Request Installation Estimate &rarr;
               </a>
               <a href="tel:3055554328" class="btn-hero-dark-call">
@@ -370,7 +429,7 @@
           <p style="font-size: 1.02rem; font-weight: 700; color: var(--primary-navy); margin: 0 0 16px;">
             If your project involves removing and replacing an existing furnace, see our <a href="/furnace-replacement" style="color: var(--primary-blue); text-decoration: underline;">furnace replacement service</a> for changeout specifications.
           </p>
-          <a href="#quote-form" class="btn-cta-orange" style="display: inline-flex;">Schedule Installation Assessment &rarr;</a>
+          <a href="tel:3059026113" class="btn-cta-orange" style="display: inline-flex;">Schedule Installation Assessment &rarr;</a>
         </div>
       </div>
     </section>
@@ -415,7 +474,7 @@
               <p style="font-size: 0.92rem; color: var(--body-text); line-height: 1.55; margin-bottom: 14px;">
                 We assess your property utilities and recommend the exact heating system setup that delivers dependable warmth and efficiency.
               </p>
-              <a href="#quote-form" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
                 Request Assessment &rarr;
               </a>
             </div>
@@ -1407,9 +1466,26 @@
           <p class="footer-desc">
             Licensed &amp; insured HVAC mechanical contractor delivering expert air conditioning repair, heating, ventilation, and commercial refrigeration throughout Miami-Dade, Broward, and Palm Beach.
           </p>
-          <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-            <span><strong>Hours:</strong> 24/7 Available &bull; 365 Days</span>
+                    <div class="footer-hours-box" style="margin: 12px 0 14px; padding: 12px 14px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.85rem; color: #CBD5E1; line-height: 1.55;">
+            <div style="font-weight: 700; color: #FFFFFF; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Operating Hours:</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Monday–Friday:</span>
+              <strong style="color: #FFFFFF;">8:00 AM – 6:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 3px;">
+              <span>Saturday:</span>
+              <strong style="color: #FFFFFF;">9:00 AM – 4:00 PM</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; gap: 8px; margin-bottom: 4px;">
+              <span>Sunday:</span>
+              <span style="color: #94A3B8;">Closed</span>
+            </div>
+            <div style="margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;">
+              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href="tel:3059026113" style="color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;">(305) 902-6113</a>
+            </div>
           </div>
           <div class="footer-contact-item" style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 0.85rem; color: #CBD5E1;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
@@ -1488,7 +1564,7 @@
             <li><a href="/terms">Terms &amp; Conditions</a></li>
             <li><a href="/privacy">Privacy Policy</a></li>
             <li><a href="tel:3059026113">Request Estimate</a></li>
-            <li><a href="/commercial-ac-repair#quote-form">Commercial Dispatch</a></li>
+            <li><a href="tel:3059026113">Commercial Dispatch</a></li>
             <li><a href="/ac-repair#emergency">24/7 Emergency AC</a></li>
           </ul>
         </div>
