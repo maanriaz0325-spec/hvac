@@ -728,42 +728,57 @@
   <!-- ==========================================================================
        9. 4-WAY SERVICES QUICK-INTERLINK BANNER
        ========================================================================== -->
-  <section style="background: #FFFFFF; padding: 0 0 60px;">
-    <div class="container">
-      
-    </div>
-  </section>
+  
 
   <!-- ==========================================================================
        10. ESTIMATE REQUEST / CONTACT FORM
        ========================================================================== -->
-  <section class="final-quote-sec" id="quote-form">
+    <!-- ==========================================================================
+       10. ESTIMATE REQUEST / CONTACT SECTION (FIXED HIGH-CONTRAST DARK NAVY STYLING)
+       ========================================================================== -->
+  <section class="final-quote-section" id="quote-form">
     <div class="container">
-      <div class="final-quote-grid">
-        <div class="final-quote-left">
-          <div class="hero-badge" style="background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2);">
+      <div class="final-quote-layout">
+        <!-- Left Side: Information & Direct Phone Block -->
+        <div class="final-quote-info">
+          <span class="section-label" style="color: #38BDF8; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; display: inline-block;">
             CONTACT MIAMI AIR CONDITIONING REPAIR
-          </div>
+          </span>
           <h2 class="final-quote-title">
             Need Expert HVAC Service in South Florida?
           </h2>
           <p class="final-quote-desc">
             With 25 years of local HVAC experience, our certified technicians are ready to assess your equipment, diagnose operating problems, or plan a complete cooling installation.
           </p>
-          <div class="service-process-item" style="border: none; background: rgba(255,255,255,0.06); margin-bottom: 12px; padding: 16px 20px;">
-            <div style="font-weight: 700; color: #FFA47D; margin-bottom: 4px;">Direct Dispatch Line</div>
-            <a href="tel:3059026113" style="font-size: 1.45rem; font-weight: 800; color: #fff; text-decoration: none;">(305) 902-6113</a>
-          </div>
-          <div style="font-size: 0.9rem; color: #94A3B8; margin-top: 10px;">
-            &bull; Same-Day Service &bull; 24/7 Emergency Response &bull; Miami-Dade, Broward &amp; Palm Beach
+
+          <a href="tel:3059026113" class="final-quote-phone-block" style="text-decoration: none;">
+            <div class="final-quote-phone-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div>
+              <div style="font-size: 0.85rem; color: #FFA47D; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px;">Direct Dispatch Line</div>
+              <div class="final-quote-phone-num">(305) 902-6113</div>
+              <div class="final-quote-emergency-note" style="color: #CBD5E1; font-size: 0.82rem; margin-top: 4px;">
+                24-Hour Emergency Service Across Miami-Dade, Broward &amp; Palm Beach
+              </div>
+            </div>
+          </a>
+
+          <div style="display: flex; align-items: center; gap: 8px; margin-top: 14px; font-size: 0.88rem; color: #94A3B8;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span><strong>Address:</strong> 1658 NE 181st St., Miami, FL 33162</span>
           </div>
         </div>
 
-        <div class="final-quote-right">
+        <!-- Right Side: White Card Form with High Contrast Inputs -->
+        <div class="quote-form-card">
+          <div class="quote-form-badge">24/7 Fast Response</div>
           <form class="final-quote-form" id="aboutQuoteForm">
-            <h3 class="form-title">Request HVAC Consultation</h3>
-            <p class="form-subtitle">Fill out the form below and our dispatcher will contact you promptly.</p>
-            <div class="form-row">
+            <h3 class="form-title" style="font-size: 1.45rem; font-weight: 800; color: #061A30; margin-bottom: 4px;">Request HVAC Consultation</h3>
+            <p class="form-subtitle" style="font-size: 0.9rem; color: #64748B; margin-bottom: 18px;">Fill out the form below and our dispatcher will contact you promptly.</p>
+            <div class="quote-form-grid">
               <div class="form-group">
                 <label class="form-label" for="ab_name">Full Name *</label>
                 <input type="text" id="ab_name" name="name" class="form-input" placeholder="Your Full Name" required>
@@ -772,8 +787,6 @@
                 <label class="form-label" for="ab_phone">Phone Number *</label>
                 <input type="tel" id="ab_phone" name="phone" class="form-input" placeholder="(305) 000-0000" required>
               </div>
-            </div>
-            <div class="form-row">
               <div class="form-group">
                 <label class="form-label" for="ab_zip">ZIP Code *</label>
                 <input type="text" id="ab_zip" name="zip" class="form-input" placeholder="e.g. 33101" required>
@@ -782,22 +795,23 @@
                 <label class="form-label" for="ab_service">Service Needed *</label>
                 <select id="ab_service" name="service" class="form-select" required>
                   <option value="" disabled selected>Select Service</option>
-                  <option value="repair">Air Conditioning Repair</option>
-                  <option value="installation">New AC Installation</option>
-                  <option value="replacement">Air Conditioner Replacement</option>
-                  <option value="maintenance">AC Maintenance &amp; Tune-Up</option>
-                  <option value="commercial">Commercial HVAC</option>
+                  <option value="AC Repair">Air Conditioning Repair</option>
+                  <option value="AC Installation">New AC Installation</option>
+                  <option value="AC Replacement">Air Conditioner Replacement</option>
+                  <option value="AC Maintenance">AC Maintenance &amp; Tune-Up</option>
+                  <option value="Commercial HVAC">Commercial HVAC</option>
+                  <option value="Indoor Air Quality">Indoor Air Quality</option>
                 </select>
               </div>
+              <div class="form-group-full">
+                <label class="form-label" for="ab_notes">Tell Us About Your HVAC Needs</label>
+                <textarea id="ab_notes" name="notes" class="form-textarea" placeholder="Explain your cooling issue, equipment age, or property requirements..."></textarea>
+              </div>
             </div>
-            <div class="form-group-full">
-              <label class="form-label" for="ab_notes">Tell Us About Your HVAC Needs</label>
-              <textarea id="ab_notes" name="notes" class="form-textarea" placeholder="Explain your cooling issue, equipment age, or property requirements..."></textarea>
-            </div>
-            <button type="submit" class="btn-submit-quote" style="background: var(--theme-orange); margin-top: 14px;">
+            <button type="submit" class="btn-submit-quote" style="background: #FF5A1F; margin-top: 16px;">
               Submit Request &rarr;
             </button>
-            <p class="form-privacy-note">
+            <p class="form-privacy-note" style="margin-top: 10px; font-size: 0.78rem; color: #94A3B8;">
               🔒 Your information is confidential and used only to process your service request.
             </p>
             <div class="form-feedback" id="abFormFeedback" style="display: none; margin-top: 12px; padding: 12px; background: #eaf8ee; color: #1e7e34; border-radius: 6px; font-weight: 600; text-align: center;">

@@ -38,18 +38,45 @@
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
   <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
+    <!-- JSON-LD WebSite, WebPage, and HVACBusiness Structured Data -->
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://miamiairconditioningheatrepair.com/#website",
+      "url": "https://miamiairconditioningheatrepair.com/",
+      "name": "Miami Air Conditioning Repair",
+      "publisher": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://miamiairconditioningheatrepair.com/#webpage",
+      "url": "https://miamiairconditioningheatrepair.com/",
+      "name": "Miami Air Conditioning Repair | HVAC Services in South Florida",
+      "description": "Residential and commercial HVAC services including air conditioning repair, installation, replacement, maintenance, heating, indoor air quality, and commercial HVAC services.",
+      "isPartOf": {
+        "@id": "https://miamiairconditioningheatrepair.com/#website"
+      },
+      "about": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
+      },
+      "mainEntity": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
+      }
+    },
+    {
       "@type": "HVACBusiness",
       "@id": "https://miamiairconditioningheatrepair.com/#business",
       "name": "Miami Air Conditioning Repair",
       "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
+      "logo": "https://miamiairconditioningheatrepair.com/images/logo.png",
       "telephone": "+1-305-902-6113",
-      "url": "https://miamiairconditioningheatrepair.com/",
       "priceRange": "$",
+      "url": "https://miamiairconditioningheatrepair.com/",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "1658 NE 181st St.",
@@ -63,10 +90,17 @@
         "latitude": 25.7617,
         "longitude": -80.1918
       },
+      "description": "Miami Air Conditioning Repair provides residential and commercial air conditioning, heating, indoor air quality, and commercial HVAC services across its South Florida service areas. Emergency HVAC service is available 24 hours a day, 7 days a week.",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
           "opens": "08:00",
           "closes": "18:00"
         },
@@ -75,24 +109,365 @@
           "dayOfWeek": "Saturday",
           "opens": "09:00",
           "closes": "16:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "00:00",
-          "closes": "23:59",
-          "description": "24/7 Emergency HVAC Service"
         }
       ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Emergency HVAC Service",
+        "telephone": "+1-305-902-6113",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      },
       "areaServed": [
-        { "@type": "AdministrativeArea", "name": "Miami-Dade County, Florida" },
-        { "@type": "AdministrativeArea", "name": "Broward County, Florida" },
-        { "@type": "AdministrativeArea", "name": "Palm Beach County, Florida" }
-      ]
+        {
+          "@type": "AdministrativeArea",
+          "name": "Miami-Dade County, Florida",
+          "containsPlace": [
+            {
+              "@type": "City",
+              "name": "Miami, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Miami Beach, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Coral Gables, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Doral, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Brickell, Miami, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Kendall, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Aventura, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Hialeah, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Pinecrest, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Homestead, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Coconut Grove, Miami, Florida"
+            }
+          ]
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Broward County, Florida",
+          "containsPlace": [
+            {
+              "@type": "City",
+              "name": "Fort Lauderdale, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Hollywood, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Pembroke Pines, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Miramar, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Pompano Beach, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Coral Springs, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Plantation, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Sunrise, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Davie, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Weston, Florida"
+            }
+          ]
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Palm Beach County, Florida",
+          "containsPlace": [
+            {
+              "@type": "City",
+              "name": "Boca Raton, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Delray Beach, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "West Palm Beach, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Boynton Beach, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Jupiter, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Palm Beach Gardens, Florida"
+            },
+            {
+              "@type": "Place",
+              "name": "Wellington, Florida"
+            },
+            {
+              "@type": "City",
+              "name": "Lake Worth, Florida"
+            }
+          ]
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Residential and Commercial HVAC Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Air Conditioning Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Replacement",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-replacement"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Maintenance & Tune-Up",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-maintenance"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Emergency AC Service",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-repair#emergency"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Heating Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Heating System Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/heating-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gas Furnace Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/gas-furnace-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Furnace Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/furnace-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Furnace Replacement",
+                  "url": "https://miamiairconditioningheatrepair.com/furnace-replacement"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Heat Pump Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/heat-pump-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Pellet Stove Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/pellet-stove-repair"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Indoor Air Quality Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Air Duct Cleaning",
+                  "url": "https://miamiairconditioningheatrepair.com/air-duct-cleaning"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Air Duct Repair & Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/air-duct-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dehumidifier Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/dehumidifier-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "UV Air Purifier Systems",
+                  "url": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Air Filtration Systems",
+                  "url": "https://miamiairconditioningheatrepair.com/air-filtration-system-installation"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Commercial HVAC Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial AC Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-ac-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial AC Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-ac-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Rooftop Packaged Units (RTU)",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-rooftop-unit"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial Ventilation & Exhaust",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-ventilation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial Refrigeration",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-refrigeration"
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
-</script>
+  </script>
 </head>
 <body>
 
