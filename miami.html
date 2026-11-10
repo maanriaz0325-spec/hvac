@@ -33,56 +33,7 @@
   <meta property="business:contact_data:country_name" content="United States">
   <meta property="business:contact_data:phone_number" content="+13059026113">
 
-  <!-- JSON-LD LocalBusiness & HVACBusiness Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Miami Air Conditioning Repair",
-    "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
-    "telephone": "+1-305-902-6113",
-    "url": "https://miamiairconditioningheatrepair.com/miami",
-    "priceRange": "$$",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1658 NE 181st St.",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33162",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
-    "areaServed": [
-      { "@type": "City", "name": "Miami" },
-      { "@type": "City", "name": "Miami Beach" },
-      { "@type": "City", "name": "Coral Gables" },
-      { "@type": "City", "name": "Doral" },
-      { "@type": "City", "name": "Brickell" },
-      { "@type": "City", "name": "Kendall" },
-      { "@type": "City", "name": "Aventura" },
-      { "@type": "City", "name": "Pinecrest" },
-      { "@type": "City", "name": "Coconut Grove" },
-      { "@type": "City", "name": "South Miami" },
-      { "@type": "City", "name": "Hialeah" },
-      { "@type": "City", "name": "Homestead" },
-      { "@type": "AdministrativeArea", "name": "Miami-Dade County" },
-      { "@type": "AdministrativeArea", "name": "Broward County" },
-      { "@type": "AdministrativeArea", "name": "Palm Beach County" }
-    ]
-  }
-  </script>
+  
 
   <style>
     /* Specific Location Page Enhancements */
@@ -417,25 +368,426 @@
     }
   </style>
 
+  
+  <!-- JSON-LD Miami Location WebPage, Service, OfferCatalog, Breadcrumb & FAQPage Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://miamiairconditioningheatrepair.com/"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "HVACBusiness",
+      "@id": "https://miamiairconditioningheatrepair.com/#business",
+      "name": "Miami Air Conditioning Repair",
+      "image": "https://miamiairconditioningheatrepair.com/images/why-us-technician.jpg",
+      "telephone": "+1-305-902-6113",
+      "url": "https://miamiairconditioningheatrepair.com/",
+      "priceRange": "$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1658 NE 181st St.",
+        "addressLocality": "Miami",
+        "addressRegion": "FL",
+        "postalCode": "33162",
+        "addressCountry": "US"
       },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Miami, FL HVAC Services",
-        "item": "https://miamiairconditioningheatrepair.com/miami"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "16:00"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Emergency HVAC Service",
+        "telephone": "+1-305-902-6113",
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
       }
-    ]
-  }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://miamiairconditioningheatrepair.com/miami#webpage",
+      "url": "https://miamiairconditioningheatrepair.com/miami",
+      "name": "HVAC Services in Miami, FL | Miami Air Conditioning Repair",
+      "description": "Explore air conditioning repair, installation, replacement, maintenance, heating, indoor air quality, and commercial HVAC services in Miami, Florida.",
+      "isPartOf": {
+        "@id": "https://miamiairconditioningheatrepair.com/#website"
+      },
+      "about": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
+      },
+      "breadcrumb": {
+        "@id": "https://miamiairconditioningheatrepair.com/miami#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://miamiairconditioningheatrepair.com/miami#service"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://miamiairconditioningheatrepair.com/miami#service",
+      "name": "HVAC Services in Miami, Florida",
+      "serviceType": [
+        "Air Conditioning Services",
+        "Heating Services",
+        "Indoor Air Quality Services",
+        "Commercial HVAC Services"
+      ],
+      "url": "https://miamiairconditioningheatrepair.com/miami",
+      "description": "Residential and commercial HVAC services in Miami, Florida, including air conditioning repair, installation, replacement, maintenance, heating services, indoor air quality solutions, and commercial HVAC services.",
+      "provider": {
+        "@id": "https://miamiairconditioningheatrepair.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Miami, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Miami Beach, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Coral Gables, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Doral, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Brickell, Miami, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Kendall, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Aventura, Florida"
+        },
+        {
+          "@type": "City",
+          "name": "Hialeah, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Pinecrest, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Homestead, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Coconut Grove, Miami, Florida"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "HVAC Services in Miami",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Air Conditioning",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Replacement",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-replacement"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AC Maintenance & Tune-Up",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-maintenance"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Emergency AC Service",
+                  "url": "https://miamiairconditioningheatrepair.com/ac-repair#emergency"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Heating Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Heating System Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/heating-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Gas Furnace Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/gas-furnace-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Furnace Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/furnace-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Furnace Replacement",
+                  "url": "https://miamiairconditioningheatrepair.com/furnace-replacement"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Heat Pump Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/heat-pump-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Pellet Stove Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/pellet-stove-repair"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Indoor Air Quality",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Air Duct Cleaning",
+                  "url": "https://miamiairconditioningheatrepair.com/air-duct-cleaning"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Air Duct Repair & Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/air-duct-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dehumidifier Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/dehumidifier-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "UV Air Purifier Systems",
+                  "url": "https://miamiairconditioningheatrepair.com/uv-air-purifier-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Air Filtration Systems",
+                  "url": "https://miamiairconditioningheatrepair.com/air-filtration-system-installation"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Commercial HVAC",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial AC Repair",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-ac-repair"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial AC Installation",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-ac-installation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Rooftop Packaged Units (RTU)",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-rooftop-unit"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial Ventilation & Exhaust",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-ventilation"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Commercial Refrigeration",
+                  "url": "https://miamiairconditioningheatrepair.com/commercial-refrigeration"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://miamiairconditioningheatrepair.com/miami#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://miamiairconditioningheatrepair.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Miami HVAC Services",
+          "item": "https://miamiairconditioningheatrepair.com/miami"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://miamiairconditioningheatrepair.com/miami#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What HVAC services do you offer in Miami, FL?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Miami Air Conditioning Repair lists air conditioning repair, installation, replacement, maintenance, heating services, indoor air quality solutions, and commercial HVAC services in Miami."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide residential and commercial HVAC services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The company offers residential and commercial HVAC service categories. Contact the team to discuss your property's heating, cooling, or ventilation requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas around Miami do you serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Listed Miami-Dade service areas include Miami, Miami Beach, Coral Gables, Doral, Brickell, Kendall, Aventura, Hialeah, Pinecrest, Homestead, and Coconut Grove. Contact the company to confirm availability at your address."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer emergency HVAC service in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Emergency HVAC service is available 24 hours a day, 7 days a week. Call the business phone number for emergency assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are your regular business hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Regular business hours are Monday through Friday, 8:00 AM to 6:00 PM, and Saturday, 9:00 AM to 4:00 PM. The business is closed on Sunday. Emergency HVAC service is available 24 hours a day, 7 days a week."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I schedule HVAC service in Miami?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Contact Miami Air Conditioning Repair by phone to discuss your HVAC issue, confirm service availability, and arrange an appointment."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body class="location-page">
@@ -575,6 +927,17 @@
       </div>
     </div>
   </header>
+
+  <!-- ==========================================================================
+       BREADCRUMB NAVIGATION
+       ========================================================================== -->
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb Navigation" style="background: #F8FAFC; border-bottom: 1px solid #E2E8F0; padding: 12px 0; font-size: 0.88rem;">
+    <div class="container" style="display: flex; align-items: center; gap: 8px; color: #64748B;">
+      <a href="/" style="color: #0869C9; text-decoration: none; font-weight: 600;">Home</a>
+      <span style="color: #94A3B8;">&rsaquo;</span>
+      <span style="color: #061A30; font-weight: 700;">Miami HVAC Services</span>
+    </div>
+  </nav>
 
   <!-- ==========================================================================
        H1: HERO SECTION — HVAC REPAIR & REPLACEMENT SERVICES IN MIAMI, FL
@@ -1131,69 +1494,70 @@
               <!-- Q1 -->
               <div class="loc-faq-item active">
                 <div class="loc-faq-header" onclick="this.parentElement.classList.toggle('active')">
-                  <span>Is Miami the target service area for this page?</span>
+                  <span>What HVAC services do you offer in Miami, FL?</span>
                   <svg class="loc-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </div>
                 <div class="loc-faq-body" style="display: block;">
-                  Yes, Miami is the target service area for this page. Contact Miami Air Conditioning Repair with your property address or ZIP code to confirm that service is available at your location.
+                  Miami Air Conditioning Repair lists air conditioning repair, installation, replacement, maintenance, heating services, indoor air quality solutions, and commercial HVAC services in Miami.
                 </div>
               </div>
 
               <!-- Q2 -->
               <div class="loc-faq-item">
                 <div class="loc-faq-header" onclick="this.parentElement.classList.toggle('active')">
-                  <span>What HVAC services are available in Miami?</span>
+                  <span>Do you provide residential and commercial HVAC services?</span>
                   <svg class="loc-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </div>
                 <div class="loc-faq-body">
-                  Available services may include AC repair, AC installation, AC replacement, AC maintenance, heating services and indoor air quality solutions. Contact the team to confirm which service applies to your equipment and current needs.
+                  The company offers residential and commercial HVAC service categories. Contact the team to discuss your property's heating, cooling, or ventilation requirements.
                 </div>
               </div>
 
               <!-- Q3 -->
               <div class="loc-faq-item">
                 <div class="loc-faq-header" onclick="this.parentElement.classList.toggle('active')">
-                  <span>Can I get emergency or same-day HVAC service in Miami?</span>
+                  <span>Which areas around Miami do you serve?</span>
                   <svg class="loc-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </div>
                 <div class="loc-faq-body">
-                  You can contact the company about an urgent HVAC breakdown and ask about the next available appointment. After-hours or 24/7 emergency availability should be confirmed when you call.
+                  Listed Miami-Dade service areas include Miami, Miami Beach, Coral Gables, Doral, Brickell, Kendall, Aventura, Hialeah, Pinecrest, Homestead, and Coconut Grove. Contact the company to confirm availability at your address.
                 </div>
               </div>
 
               <!-- Q4 -->
               <div class="loc-faq-item">
                 <div class="loc-faq-header" onclick="this.parentElement.classList.toggle('active')">
-                  <span>Do you offer AC installation and replacement in Miami?</span>
+                  <span>Do you offer emergency HVAC service in Miami?</span>
                   <svg class="loc-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </div>
                 <div class="loc-faq-body">
-                  Customers looking for a new air conditioning system can contact the team to discuss installation. If an existing unit is unreliable or nearing the end of its useful life, ask about replacement options.
+                  Emergency HVAC service is available 24 hours a day, 7 days a week. Call the business phone number for emergency assistance.
                 </div>
               </div>
 
               <!-- Q5 -->
               <div class="loc-faq-item">
                 <div class="loc-faq-header" onclick="this.parentElement.classList.toggle('active')">
-                  <span>How do I know whether to repair or replace my air conditioner?</span>
+                  <span>What are your regular business hours?</span>
                   <svg class="loc-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </div>
                 <div class="loc-faq-body">
-                  The decision depends on the system's age, condition, repair history and the nature of the problem. A proper assessment can help determine whether repairing the existing equipment or considering replacement makes more sense.
+                  Regular business hours are Monday through Friday, 8:00 AM to 6:00 PM, and Saturday, 9:00 AM to 4:00 PM. The business is closed on Sunday. Emergency HVAC service is available 24 hours a day, 7 days a week.
                 </div>
               </div>
 
               <!-- Q6 -->
               <div class="loc-faq-item">
                 <div class="loc-faq-header" onclick="this.parentElement.classList.toggle('active')">
-                  <span>How do I schedule an HVAC service visit in Miami?</span>
+                  <span>How can I schedule HVAC service in Miami?</span>
                   <svg class="loc-faq-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="transition: transform 0.2s;"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </div>
                 <div class="loc-faq-body">
-                  Call Miami Air Conditioning Repair or use the service request option on this page. Share your location, the type of HVAC equipment you have and a brief description of the problem so the team can discuss the appropriate next step.
+                  Contact Miami Air Conditioning Repair by phone to discuss your HVAC issue, confirm service availability, and arrange an appointment.
                 </div>
               </div>
             </div>
+          </div>
           </section>
 
         </div>
