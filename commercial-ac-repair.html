@@ -9,7 +9,8 @@
   <meta name="robots" content="index, follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
   <link rel="stylesheet" href="/styles.css">
   <link rel="icon" type="image/png" href="/images/favicon.png">
   <link rel="apple-touch-icon" href="/images/favicon.png">
@@ -234,7 +235,7 @@
   <header class="main-header" id="mainHeader">
     <div class="container">
       <a href="/" class="brand-logo" aria-label="Miami Air Conditioning Repair Home">
-        <img src="/images/logo.png" alt="Miami Air Conditioning Repair" width="220" height="60" class="header-logo-img">
+        <img src="/images/logo.png" alt="Miami Air Conditioning Repair" width="220" height="60" class="header-logo-img" decoding="async">
       </a>
 
             <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
@@ -1894,7 +1895,7 @@
         <div class="footer-col footer-col-brand">
           <div class="footer-brand">
             <a href="/" class="brand-logo" style="margin-bottom: 12px; display: inline-block;">
-              <img src="/images/logo.png" alt="Miami Air Conditioning Repair" class="footer-logo-img">
+              <img src="/images/logo.png" alt="Miami Air Conditioning Repair" width="220" height="148" loading="lazy" decoding="async" class="footer-logo-img">
             </a>
           </div>
           <p class="footer-desc">
@@ -2019,7 +2020,7 @@
     </div>
   </footer>
 
-  <script src="/app.js"></script>
+  <script src="/app.js" defer></script>
   <script>
     // FAQ Accordion Toggle Script
     document.querySelectorAll('.faq-question, .faq-accordion-header').forEach(header => {
