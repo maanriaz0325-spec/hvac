@@ -162,13 +162,13 @@ const html = `<!DOCTYPE html>
       </nav>
 
       <div class="header-actions">
-        <a href="tel:3055554328" class="header-phone" aria-label="Call (305) 555-HEAT">
+        <a href="tel:+18336843425" class="header-phone" aria-label="Call (833) 684-3425">
           <div class="phone-icon-pulse">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
           </div>
-          <span class="phone-number">(305) 555-HEAT</span>
+          <span class="phone-number">(833) 684-3425</span>
         </a>
 
         <a href="#quote-form" class="btn-cta-orange">
@@ -231,11 +231,11 @@ const html = `<!DOCTYPE html>
               <a href="#quote-form" class="btn-cta-orange btn-lg">
                 Request Installation Estimate &rarr;
               </a>
-              <a href="tel:3055554328" class="btn-hero-dark-call">
+              <a href="tel:+18336843425" class="btn-hero-dark-call">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                (305) 555-HEAT
+                (833) 684-3425
               </a>
             </div>
           </div>
@@ -673,9 +673,9 @@ const html = `<!DOCTYPE html>
             <div class="service-faq-support-box">
               <h4>Have a Specific Question?</h4>
               <p>Our certified furnace specialists are ready to explain your options and provide honest guidance.</p>
-              <a href="tel:3055554328" class="header-phone" style="display: inline-flex; width: fit-content; margin-bottom: 12px;">
+              <a href="tel:+18336843425" class="header-phone" style="display: inline-flex; width: fit-content; margin-bottom: 12px;">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                <span>(305) 555-HEAT</span>
+                <span>(833) 684-3425</span>
               </a>
               <div style="font-size: 0.85rem; color: var(--muted-text);">
                 &bull; 24-Hour Emergency Heating Dispatch Available
@@ -844,7 +844,7 @@ const html = `<!DOCTYPE html>
           <!-- Right Booking Form Card -->
           <div class="service-quote-form-card">
             <h3 class="form-card-title">Schedule Furnace Installation Consultation</h3>
-            <p class="form-card-subtitle">Fill out the form below or call <a href="tel:3055554328" style="color: var(--theme-orange); font-weight: 700;">(305) 555-HEAT</a> for direct dispatch.</p>
+            <p class="form-card-subtitle">Fill out the form below or call <a href="tel:+18336843425" style="color: var(--theme-orange); font-weight: 700;">(833) 684-3425</a> for direct dispatch.</p>
 
             <form id="furnaceInstallForm" onsubmit="event.preventDefault(); submitInstallForm();">
               <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
@@ -906,9 +906,9 @@ const html = `<!DOCTYPE html>
             Bringing 25 years of HVAC experience, certified technicians, and licensed &amp; insured service to residential heating and cooling needs across Miami-Dade.
           </p>
           <div class="footer-contact-links">
-            <a href="tel:3055554328" class="footer-contact-item">
+            <a href="tel:+18336843425" class="footer-contact-item">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              <span>(305) 555-HEAT &bull; (305) 555-4328</span>
+              <span>(833) 684-3425 &bull; (833) 684-3425</span>
             </a>
           </div>
         </div>

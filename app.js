@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
         zipResult.style.display = 'block';
         zipResult.style.background = '#EFF6FF';
         zipResult.style.color = '#1D4ED8';
-        zipResult.innerHTML = `ZIP <strong>${val}</strong> is just outside our core zone, but our team regularly accommodates nearby projects. Call <a href="tel:3055552665" style="color: inherit; text-decoration: underline;"><strong>(305) 555-2665</strong></a> to confirm availability.`;
+        zipResult.innerHTML = `ZIP <strong>${val}</strong> is just outside our core zone, but our team regularly accommodates nearby projects. Call <a href="tel:+18336843425" style="color: inherit; text-decoration: underline;"><strong>(833) 684-3425</strong></a> to confirm availability.`;
       }
     });
 

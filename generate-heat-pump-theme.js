@@ -160,13 +160,13 @@ const html = `<!DOCTYPE html>
       </nav>
 
       <div class="header-actions">
-        <a href="tel:3059026113" class="header-phone" aria-label="Call (305) 902-6113">
+        <a href="tel:+18336843425" class="header-phone" aria-label="Call (833) 684-3425">
           <div class="phone-icon-pulse">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
           </div>
-          <span class="phone-number">(305) 902-6113</span>
+          <span class="phone-number">(833) 684-3425</span>
         </a>
 
         <a href="#quote-form" class="btn-cta-orange">
@@ -229,9 +229,9 @@ const html = `<!DOCTYPE html>
               <a href="#quote-form" class="btn-cta-orange btn-lg">
                 Schedule Diagnostic Assessment &rarr;
               </a>
-              <a href="tel:3059026113" class="btn-hero-dark-call">
+              <a href="tel:+18336843425" class="btn-hero-dark-call">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                (305) 902-6113
+                (833) 684-3425
               </a>
             </div>
           </div>
@@ -378,8 +378,8 @@ const html = `<!DOCTYPE html>
               <p style="font-size: 0.92rem; color: var(--body-text); line-height: 1.55; margin-bottom: 14px;">
                 Heat pump failed or stuck? Call our dispatch team directly for rapid response across Miami-Dade and Broward.
               </p>
-              <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
-                Call (305) 902-6113
+              <a href="tel:+18336843425" class="btn-cta-orange" style="width: 100%; text-align: center; padding: 11px 18px; font-size: 0.94rem;">
+                Call (833) 684-3425
               </a>
             </div>
           </div>
@@ -738,7 +738,7 @@ const html = `<!DOCTYPE html>
                 <p style="color: var(--body-text); font-size: 0.9rem; line-height: 1.5; margin-bottom: 16px;">
                   Our certified technicians can inspect your heat pump system today.
                 </p>
-                <a href="tel:3059026113" class="btn-cta-orange" style="width: 100%; text-align: center; justify-content: center;">Call (305) 902-6113</a>
+                <a href="tel:+18336843425" class="btn-cta-orange" style="width: 100%; text-align: center; justify-content: center;">Call (833) 684-3425</a>
               </div>
             </div>
           </div>
@@ -900,7 +900,7 @@ const html = `<!DOCTYPE html>
               </li>
             </ul>
             <p style="font-size: 1.05rem; font-weight: 700; color: var(--primary-blue);">
-              Call our team at (305) 902-6113 or submit this form to request service.
+              Call our team at (833) 684-3425 or submit this form to request service.
             </p>
           </div>
 
@@ -1011,7 +1011,7 @@ const html = `<!DOCTYPE html>
           <h4 style="color: #FFFFFF; font-size: 1rem; font-weight: 700; margin-bottom: 16px;">Contact Information</h4>
           <p style="font-size: 0.9rem; margin-bottom: 8px; color: #FFFFFF;">Miami Air Conditioning &amp; Heat Repair</p>
           <p style="font-size: 0.9rem; margin-bottom: 8px;">
-            <a href="tel:3059026113" style="color: var(--bright-blue); text-decoration: none; font-weight: 700;">(305) 902-6113</a>
+            <a href="tel:+18336843425" style="color: var(--bright-blue); text-decoration: none; font-weight: 700;">(833) 684-3425</a>
           </p>
           <p style="font-size: 0.85rem; color: #94A3B8; margin-bottom: 12px;">Serving Miami-Dade, Broward &amp; Palm Beach Counties</p>
           <a href="#quote-form" class="btn-cta-orange" style="font-size: 0.85rem; padding: 8px 16px;">Request Service</a>
@@ -1028,9 +1028,9 @@ const html = `<!DOCTYPE html>
        12. MOBILE FLOATING CALL BAR
        ========================================================================== -->
   <div class="mobile-sticky-action">
-    <a href="tel:3059026113" class="btn-primary-blue mobile-sticky-call">
+    <a href="tel:+18336843425" class="btn-primary-blue mobile-sticky-call">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-      Call (305) 902-6113
+      Call (833) 684-3425
     </a>
     <a href="#quote-form" class="btn-cta-orange mobile-sticky-quote">
       Get Diagnostic

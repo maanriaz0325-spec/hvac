@@ -95,12 +95,12 @@
         "original": "<p>Our dispatchers are standing by 24 hours a day for emergency service inquiries throughout Miami-Dade.</p>",
         "replacement": "<p>Contact our dispatch team for service inquiries and scheduling throughout Miami-Dade.</p>",
         "beforeAnchor": "\"faq-support-card\">\n            <h4>Need Immediate Assistance?</h4>\n            ",
-        "afterAnchor": "\n            <a href=\"tel:3059026113\" class=\"btn-primary-blue\">\n              <s"
+        "afterAnchor": "\n            <a href=\"tel:+18336843425\" class=\"btn-primary-blue\">\n              <s"
       },
       {
         "file": "index.html",
         "type": "footerEmergency24Hours",
-        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:+18336843425\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(833) 684-3425</a>\n            </div>",
         "replacement": "",
         "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
         "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"

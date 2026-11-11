@@ -146,7 +146,7 @@ const html = `<!DOCTYPE html>
           </div>
           <div class="contact-text-group">
             <span class="contact-small-label">CALL EXPERTS 24/7</span>
-            <a href="tel:3059026113" class="contact-phone-number">(305) 902-6113</a>
+            <a href="tel:+18336843425" class="contact-phone-number">(833) 684-3425</a>
           </div>
         </div>
         <a href="#book-service" class="btn btn-primary btn-quote-action">Request Service</a>
@@ -193,9 +193,9 @@ const html = `<!DOCTYPE html>
             </p>
 
             <div class="service-hero-actions">
-              <a href="tel:3059026113" class="btn btn-primary" style="font-size: 1.05rem; padding: 14px 28px;">
+              <a href="tel:+18336843425" class="btn btn-primary" style="font-size: 1.05rem; padding: 14px 28px;">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 8px; vertical-align: middle;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-                Call Our Team: (305) 902-6113
+                Call Our Team: (833) 684-3425
               </a>
               <a href="#book-service" class="btn btn-outline" style="font-size: 1.05rem; padding: 14px 28px;">
                 Request Water Heater Service &darr;
@@ -974,7 +974,7 @@ const html = `<!DOCTYPE html>
                 <p style="color: #475569; font-size: 0.9rem; line-height: 1.5; margin-bottom: 16px;">
                   Our certified technicians can inspect your electric, gas, or tankless water heater today.
                 </p>
-                <a href="tel:3059026113" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center;">Call (305) 902-6113</a>
+                <a href="tel:+18336843425" class="btn btn-primary" style="width: 100%; text-align: center; justify-content: center;">Call (833) 684-3425</a>
               </div>
             </div>
           </div>
@@ -1143,7 +1143,7 @@ const html = `<!DOCTYPE html>
           <div class="quote-form-panel">
             <div class="form-wrapper">
               <h3 style="font-size: 1.35rem; font-weight: 800; color: #0F172A; margin-bottom: 8px;">Book Water Heater Assessment</h3>
-              <p style="color: #64748B; font-size: 0.9rem; margin-bottom: 20px;">Fill out this quick form or call (305) 902-6113 for immediate response.</p>
+              <p style="color: #64748B; font-size: 0.9rem; margin-bottom: 20px;">Fill out this quick form or call (833) 684-3425 for immediate response.</p>
 
               <form id="waterHeaterForm" class="service-booking-form">
                 <div class="form-group">
@@ -1260,7 +1260,7 @@ const html = `<!DOCTYPE html>
           <h4 style="color: #FFFFFF; font-size: 1rem; font-weight: 700; margin-bottom: 16px;">Contact Information</h4>
           <p style="font-size: 0.9rem; margin-bottom: 8px; color: #94A3B8;">Miami Air Conditioning &amp; Heat Repair</p>
           <p style="font-size: 0.9rem; margin-bottom: 8px;">
-            <a href="tel:3059026113" style="color: #38BDF8; text-decoration: none; font-weight: 700;">(305) 902-6113</a>
+            <a href="tel:+18336843425" style="color: #38BDF8; text-decoration: none; font-weight: 700;">(833) 684-3425</a>
           </p>
           <p style="font-size: 0.85rem; color: #64748B; margin-bottom: 12px;">Serving Miami-Dade &amp; South Broward Counties</p>
           <a href="#book-service" class="btn btn-primary" style="font-size: 0.85rem; padding: 8px 16px;">Request Service</a>
@@ -1277,9 +1277,9 @@ const html = `<!DOCTYPE html>
        17. MOBILE FLOATING CALL BAR
        ========================================================================== -->
   <div class="mobile-sticky-action">
-    <a href="tel:3059026113" class="btn btn-primary mobile-sticky-call">
+    <a href="tel:+18336843425" class="btn btn-primary mobile-sticky-call">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-      Call (305) 902-6113
+      Call (833) 684-3425
     </a>
     <a href="#book-service" class="btn btn-secondary mobile-sticky-quote">
       Request Service
