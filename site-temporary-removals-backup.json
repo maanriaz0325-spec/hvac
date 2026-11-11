@@ -620,5 +620,931 @@
       "replacement": "<em>Ideal For:</em>",
       "occurrences": 2
     }
-  ]
+  ],
+  "emergency247Removals": {
+    "about-us.html": [
+      {
+        "file": "about-us.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "about-us.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "about-us.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "about-us.html",
+        "type": "finalQuoteEmergencyNote",
+        "original": "24-Hour Emergency Service Across Miami-Dade, Broward &amp; Palm Beach",
+        "replacement": "Direct Dispatch Across Miami-Dade, Broward &amp; Palm Beach",
+        "beforeAnchor": "\" style=\"color: #CBD5E1; font-size: 0.82rem; margin-top: 4px;\">\n                ",
+        "afterAnchor": "\n              </div>\n            </div>\n          </a>\n\n          <div style=\"d"
+      },
+      {
+        "file": "about-us.html",
+        "type": "quoteFormBadge",
+        "original": "<div class=\"quote-form-badge\">24/7 Fast Response</div>",
+        "replacement": "<div class=\"quote-form-badge\">Fast Response</div>",
+        "beforeAnchor": "m with High Contrast Inputs -->\n        <div class=\"quote-form-card\">\n          ",
+        "afterAnchor": "\n          <form class=\"final-quote-form\" id=\"aboutQuoteForm\">\n            <h3 c"
+      }
+    ],
+    "ac-installation.html": [
+      {
+        "file": "ac-installation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "ac-installation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "ac-installation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "ac-installation.html",
+        "type": "heroTrustItem",
+        "original": "<span>24/7 Scheduling Dispatch</span>",
+        "replacement": "<span>Flexible Scheduling Dispatch</span>",
+        "beforeAnchor": "lyline points=\"12 6 12 12 16 14\"></polyline>\n              </svg>\n              ",
+        "afterAnchor": "\n            </div>\n            <div class=\"service-hero-trust-item\">\n          "
+      },
+      {
+        "file": "ac-installation.html",
+        "type": "body247Team",
+        "original": "our 24/7 team is ready with",
+        "replacement": "our dispatch team is ready with",
+        "beforeAnchor": "erline;\">AC maintenance and tune-up plans</a>. In case of unexpected shutdowns, ",
+        "afterAnchor": " <a href=\"/ac-repair#emergency\" style=\"color: var(--primary-blue, #0869C9); font"
+      },
+      {
+        "file": "ac-installation.html",
+        "type": "faqSupportDispatch",
+        "original": "&bull; 24-Hour Dispatch &bull; Same-Day Estimates Available",
+        "replacement": "&bull; Local Dispatch &bull; Estimates Available",
+        "beforeAnchor": "      <div style=\"font-size: 0.85rem; color: var(--muted-text);\">\n              ",
+        "afterAnchor": "\n            </div>\n          </div>\n        </div>\n\n        <!-- Right Side: Fu"
+      },
+      {
+        "file": "ac-installation.html",
+        "type": "finalQuoteNote",
+        "original": "24-Hour Dispatch &bull; Upfront Written Pricing Guaranteed",
+        "replacement": "Priority Dispatch &bull; Clear Service Pricing",
+        "beforeAnchor": "></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>\n                ",
+        "afterAnchor": "\n              </div>\n            <div class=\"final-quote-address-item\" style=\"d"
+      }
+    ],
+    "ac-maintenance.html": [
+      {
+        "file": "ac-maintenance.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "ac-maintenance.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "ac-maintenance.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "ac-maintenance.html",
+        "type": "faqHours",
+        "original": "<span class=\"service-faq-hours\">Available 24/7 for Inquiries</span>",
+        "replacement": "<span class=\"service-faq-hours\">Mon&ndash;Sat Operating Hours</span>",
+        "beforeAnchor": "16.92z\"></path></svg>\n              (305) 902-6113\n            </a>\n            ",
+        "afterAnchor": "\n          </div>\n          <a href=\"tel:3059026113\" class=\"btn-cta-orange\" styl"
+      },
+      {
+        "file": "ac-maintenance.html",
+        "type": "dispatchDesc247",
+        "original": "or 24/7 <a href=\"/ac-repair#emergency\"",
+        "replacement": "or <a href=\"/ac-repair#emergency\"",
+        "beforeAnchor": "#0869C9); font-weight: 600; text-decoration: underline;\">AC repair in Miami</a> ",
+        "afterAnchor": " style=\"color: var(--primary-blue, #0869C9); font-weight: 600; text-decoration: "
+      },
+      {
+        "file": "ac-maintenance.html",
+        "type": "comment247",
+        "original": "<!-- 24/7 Call Box -->",
+        "replacement": "<!-- Dispatch Call Box -->",
+        "beforeAnchor": "ntral air conditioning system inspected and serviced.\n          </p>\n\n          ",
+        "afterAnchor": "\n          <div class=\"dispatch-call-box\">\n            <div class=\"dispatch-call"
+      }
+    ],
+    "ac-repair.html": [
+      {
+        "file": "ac-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "ac-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "ac-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "ac-repair.html",
+        "type": "heroTrustItem",
+        "original": "<span>24/7 Emergency Service</span>",
+        "replacement": "<span>Prompt Professional Service</span>",
+        "beforeAnchor": "lyline points=\"12 6 12 12 16 14\"></polyline>\n              </svg>\n              ",
+        "afterAnchor": "\n            </div>\n            <div class=\"service-hero-trust-item\">\n          "
+      },
+      {
+        "file": "ac-repair.html",
+        "type": "faqSupportDispatch",
+        "original": "&bull; 24-Hour Emergency Dispatch Available",
+        "replacement": "&bull; Emergency Dispatch Available",
+        "beforeAnchor": "      <div style=\"font-size: 0.85rem; color: var(--muted-text);\">\n              ",
+        "afterAnchor": "\n            </div>\n          </div>\n        </div>\n\n        <!-- Right Side: Fu"
+      },
+      {
+        "file": "ac-repair.html",
+        "type": "finalQuoteNote",
+        "original": "24-Hour Emergency Dispatch Across Miami-Dade, Broward &amp; Palm Beach",
+        "replacement": "Emergency Dispatch Across Miami-Dade, Broward &amp; Palm Beach",
+        "beforeAnchor": "></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>\n                ",
+        "afterAnchor": "\n              </div>\n            <div class=\"final-quote-address-item\" style=\"d"
+      },
+      {
+        "file": "ac-repair.html",
+        "type": "quoteFormBadge",
+        "original": "<div class=\"quote-form-badge\">24/7 Fast Response</div>",
+        "replacement": "<div class=\"quote-form-badge\">Fast Response</div>",
+        "beforeAnchor": ">\n          </a>\n        </div>\n        <div class=\"quote-form-card\">\n          ",
+        "afterAnchor": "\n          <form class=\"ajax-quote-form\" id=\"serviceQuoteForm\">\n            <div"
+      }
+    ],
+    "ac-replacement.html": [
+      {
+        "file": "ac-replacement.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "ac-replacement.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "ac-replacement.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "ac-replacement.html",
+        "type": "countyStat",
+        "original": "<span class=\"service-county-stat\">24/7 Dispatch Available</span>",
+        "replacement": "<span class=\"service-county-stat\">Local Dispatch Available</span>",
+        "beforeAnchor": "pan>\n          </div>\n          <div class=\"service-county-footer\">\n            ",
+        "afterAnchor": "\n            <a href=\"tel:3059026113\" class=\"service-county-link\">Call (305) 902"
+      },
+      {
+        "file": "ac-replacement.html",
+        "type": "faqHours",
+        "original": "<span class=\"service-faq-hours\">Available 24/7 for Inquiries</span>",
+        "replacement": "<span class=\"service-faq-hours\">Mon&ndash;Sat Operating Hours</span>",
+        "beforeAnchor": "16.92z\"></path></svg>\n              (305) 902-6113\n            </a>\n            ",
+        "afterAnchor": "\n          </div>\n          <a href=\"tel:3059026113\" class=\"btn-cta-orange\" styl"
+      },
+      {
+        "file": "ac-replacement.html",
+        "type": "comment247",
+        "original": "<!-- 24/7 Call Box -->",
+        "replacement": "<!-- Dispatch Call Box -->",
+        "beforeAnchor": "our existing equipment and explain the proposed work.\n          </p>\n\n          ",
+        "afterAnchor": "\n          <div class=\"dispatch-call-box\">\n            <div class=\"dispatch-call"
+      }
+    ],
+    "air-duct-cleaning.html": [
+      {
+        "file": "air-duct-cleaning.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "air-duct-cleaning.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "air-duct-cleaning.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "air-duct-repair.html": [
+      {
+        "file": "air-duct-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "air-duct-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "air-duct-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "air-filtration-system-installation.html": [
+      {
+        "file": "air-filtration-system-installation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "air-filtration-system-installation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "air-filtration-system-installation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "commercial-ac-installation.html": [
+      {
+        "file": "commercial-ac-installation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "commercial-ac-installation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "commercial-ac-installation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "commercial-ac-repair.html": [
+      {
+        "file": "commercial-ac-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "commercial-ac-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "commercial-ac-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "commercial-refrigeration.html": [
+      {
+        "file": "commercial-refrigeration.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "commercial-refrigeration.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "commercial-refrigeration.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "commercial-refrigeration.html",
+        "type": "cta247",
+        "original": "Contact our 24/7 commercial refrigeration emergency dispatch.",
+        "replacement": "Contact our commercial refrigeration emergency dispatch.",
+        "beforeAnchor": " margin-bottom: 14px;\">\n                Perishable stock in danger of spoilage? ",
+        "afterAnchor": "\n              </p>\n              <a href=\"tel:3059026113\" class=\"btn-cta-orange"
+      }
+    ],
+    "commercial-rooftop-unit.html": [
+      {
+        "file": "commercial-rooftop-unit.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "commercial-rooftop-unit.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "commercial-rooftop-unit.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "commercial-ventilation.html": [
+      {
+        "file": "commercial-ventilation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "commercial-ventilation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "commercial-ventilation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "dehumidifier-installation.html": [
+      {
+        "file": "dehumidifier-installation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "dehumidifier-installation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "dehumidifier-installation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "furnace-installation.html": [
+      {
+        "file": "furnace-installation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "furnace-installation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "furnace-installation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "furnace-installation.html",
+        "type": "faqSupportDispatch",
+        "original": "&bull; 24-Hour Emergency Heating Dispatch Available",
+        "replacement": "&bull; Emergency Heating Dispatch Available",
+        "beforeAnchor": "    <div style=\"font-size: 0.85rem; color: var(--muted-text);\">\n                ",
+        "afterAnchor": "\n              </div>\n              <ul style=\"margin-top: 14px; padding-left: 0"
+      }
+    ],
+    "furnace-replacement.html": [
+      {
+        "file": "furnace-replacement.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "furnace-replacement.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "furnace-replacement.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "gas-furnace-repair.html": [
+      {
+        "file": "gas-furnace-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "gas-furnace-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "gas-furnace-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "gas-furnace-repair.html",
+        "type": "faqSupportDispatch",
+        "original": "&bull; 24-Hour Emergency Heating Dispatch Available",
+        "replacement": "&bull; Emergency Heating Dispatch Available",
+        "beforeAnchor": "      <div style=\"font-size: 0.85rem; color: var(--muted-text);\">\n              ",
+        "afterAnchor": "\n            </div>\n            <ul style=\"margin-top: 14px; padding-left: 0; li"
+      },
+      {
+        "file": "gas-furnace-repair.html",
+        "type": "dispatchCallLabel",
+        "original": "<span class=\"dispatch-call-label\">For Immediate 24/7 Phone Dispatch:</span>",
+        "replacement": "<span class=\"dispatch-call-label\">For Immediate Phone Dispatch:</span>",
+        "beforeAnchor": "dentials.\n          </p>\n\n          <div class=\"dispatch-call-box\">\n            ",
+        "afterAnchor": "\n            <a href=\"tel:3055554328\" class=\"dispatch-call-number\">(305) 555-HEA"
+      }
+    ],
+    "heat-pump-repair.html": [
+      {
+        "file": "heat-pump-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "heat-pump-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "heat-pump-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "heating-repair.html": [
+      {
+        "file": "heating-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "heating-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "heating-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "heating-repair.html",
+        "type": "faqHours",
+        "original": "<span class=\"service-faq-hours\">Mon-Sun: 24/7 Emergency Dispatch</span>",
+        "replacement": "<span class=\"service-faq-hours\">Mon&ndash;Sat Operating Hours</span>",
+        "beforeAnchor": "16.92z\"></path></svg>\n              (305) 902-6113\n            </a>\n            ",
+        "afterAnchor": "\n          </div>\n          <a href=\"tel:3059026113\" class=\"btn-cta-orange\" styl"
+      }
+    ],
+    "hvac-service.html": [
+      {
+        "file": "hvac-service.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n      </div>\n   "
+      },
+      {
+        "file": "hvac-service.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "hvac-service.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "hvac-service.html",
+        "type": "faqSupportDispatch",
+        "original": "&bull; 24-Hour Emergency Dispatch Across Miami",
+        "replacement": "&bull; Emergency Dispatch Across Miami",
+        "beforeAnchor": "      <div style=\"font-size: 0.85rem; color: var(--muted-text);\">\n              ",
+        "afterAnchor": "\n            </div>\n          </div>\n        </div>\n\n        <!-- Right Column: "
+      }
+    ],
+    "miami.html": [
+      {
+        "file": "miami.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "miami.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "miami.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "miami.html",
+        "type": "heroTrustItem",
+        "original": "<span>24/7 Emergency Service</span>",
+        "replacement": "<span>Prompt Professional Service</span>",
+        "beforeAnchor": "lyline points=\"12 6 12 12 16 14\"></polyline>\n              </svg>\n              ",
+        "afterAnchor": "\n            </div>\n            <div class=\"service-hero-trust-item\">\n          "
+      },
+      {
+        "file": "miami.html",
+        "type": "locTrustItem3",
+        "original": "<strong style=\"color: #061A30; font-size: 1rem;\">24/7 Rapid Emergency Response:</strong>",
+        "replacement": "<strong style=\"color: #061A30; font-size: 1rem;\">Rapid Dispatch Response:</strong>",
+        "beforeAnchor": "     <div class=\"loc-trust-num\">3</div>\n                <div>\n                  ",
+        "afterAnchor": "\n                  <span style=\"color: #475569; font-size: 0.95rem; margin-left:"
+      },
+      {
+        "file": "miami.html",
+        "type": "faqEmergencyAnswerSchema",
+        "original": "Emergency HVAC service is available 24 hours a day, 7 days a week. Call the business phone number for emergency assistance.",
+        "replacement": "Call the business phone number for urgent HVAC service inquiries and current technician availability.",
+        "beforeAnchor": "        \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"",
+        "afterAnchor": "\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"nam"
+      },
+      {
+        "file": "miami.html",
+        "type": "faqEmergencyAnswerVisible",
+        "original": "Emergency HVAC service is available 24 hours a day, 7 days a week. Call the business phone number for emergency assistance.",
+        "replacement": "Call the business phone number for urgent HVAC service inquiries and current technician availability.",
+        "beforeAnchor": "            </div>\n                <div class=\"loc-faq-body\">\n                  ",
+        "afterAnchor": "\n                </div>\n              </div>\n\n              <!-- Q5 -->\n        "
+      },
+      {
+        "file": "miami.html",
+        "type": "faqHoursSchema",
+        "original": "Regular business hours are Monday through Friday, 8:00 AM to 6:00 PM, and Saturday, 9:00 AM to 4:00 PM. The business is closed on Sunday. Emergency HVAC service is available 24 hours a day, 7 days a week.",
+        "replacement": "Regular business hours are Monday through Friday, 8:00 AM to 6:00 PM, and Saturday, 9:00 AM to 4:00 PM. The business is closed on Sunday.",
+        "beforeAnchor": "        \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"",
+        "afterAnchor": "\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"nam"
+      },
+      {
+        "file": "miami.html",
+        "type": "faqHoursVisible",
+        "original": "Regular business hours are Monday through Friday, 8:00 AM to 6:00 PM, and Saturday, 9:00 AM to 4:00 PM. The business is closed on Sunday. Emergency HVAC service is available 24 hours a day, 7 days a week.",
+        "replacement": "Regular business hours are Monday through Friday, 8:00 AM to 6:00 PM, and Saturday, 9:00 AM to 4:00 PM. The business is closed on Sunday.",
+        "beforeAnchor": "            </div>\n                <div class=\"loc-faq-body\">\n                  ",
+        "afterAnchor": "\n                </div>\n              </div>\n\n              <!-- Q6 -->\n        "
+      },
+      {
+        "file": "miami.html",
+        "type": "sidebarPhoneSub",
+        "original": "Direct Dispatch Line &bull; 24/7 Response",
+        "replacement": "Direct Dispatch Line &bull; Miami, FL",
+        "beforeAnchor": "ght: 700; color: #0869C9; margin-top: 6px; margin-bottom: 14px;\">\n              ",
+        "afterAnchor": "\n            </div>\n\n            <!-- Urgent Meta Points -->\n            <div cl"
+      }
+    ],
+    "pellet-stove-repair.html": [
+      {
+        "file": "pellet-stove-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "pellet-stove-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "pellet-stove-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "privacy-policy.html": [
+      {
+        "file": "privacy-policy.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n      </div>\n   "
+      },
+      {
+        "file": "privacy-policy.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "privacy-policy.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "terms-and-conditions.html": [
+      {
+        "file": "terms-and-conditions.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "terms-and-conditions.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "terms-and-conditions.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      },
+      {
+        "file": "terms-and-conditions.html",
+        "type": "finalQuoteNote",
+        "original": "24-Hour Emergency Service Across Miami-Dade",
+        "replacement": "Direct Dispatch Across Miami-Dade",
+        "beforeAnchor": "></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>\n                ",
+        "afterAnchor": "\n              </div>\n              <div class=\"final-quote-address-item\" style="
+      },
+      {
+        "file": "terms-and-conditions.html",
+        "type": "quoteFormBadge",
+        "original": "<div class=\"quote-form-badge\">24/7 Fast Response</div>",
+        "replacement": "<div class=\"quote-form-badge\">Fast Response</div>",
+        "beforeAnchor": "\n          </a>\n        </div>\n\n        <div class=\"quote-form-card\">\n          ",
+        "afterAnchor": "\n          <form class=\"ajax-quote-form\" id=\"mainQuoteForm\">\n            <div cl"
+      }
+    ],
+    "uv-air-purifier-installation.html": [
+      {
+        "file": "uv-air-purifier-installation.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "uv-air-purifier-installation.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "uv-air-purifier-installation.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ],
+    "water-heater-repair.html": [
+      {
+        "file": "water-heater-repair.html",
+        "type": "topBarAnnouncement",
+        "original": "24/7 Emergency AC &amp; HVAC Service Across Miami-Dade &amp; South Florida",
+        "replacement": "Professional AC &amp; HVAC Services Across Miami-Dade &amp; South Florida",
+        "beforeAnchor": "></path>\n            <path d=\"m8 20 4-4 4 4\"></path>\n          </svg>\n          ",
+        "afterAnchor": "\n        </span>\n      </div>\n      <div class=\"top-bar-right\">\n        \n       "
+      },
+      {
+        "file": "water-heater-repair.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      },
+      {
+        "file": "water-heater-repair.html",
+        "type": "footerLink247EmergencyAC",
+        "original": "<li><a href=\"/ac-repair#emergency\">24/7 Emergency AC</a></li>",
+        "replacement": "<li><a href=\"/ac-repair#emergency\">Emergency AC Service</a></li>",
+        "beforeAnchor": "          <li><a href=\"tel:3059026113\">Commercial Dispatch</a></li>\n            ",
+        "afterAnchor": "\n          </ul>\n        </div>\n      </div>\n\n      <!-- Footer Bottom Bar -->\n "
+      }
+    ]
+  }
 }

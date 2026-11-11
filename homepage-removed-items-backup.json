@@ -20,5 +20,91 @@
     },
     "finalQuoteEmergencyNote": "24-Hour Emergency Service Across Miami-Dade",
     "quoteFormBadge": "<div class=\"quote-form-badge\">24/7 Fast Response</div>"
+  },
+  "complianceTemporaryChanges_2026_11_11": {
+    "timestamp": "2026-11-11T17:19:11.041Z",
+    "description": "Temporary homepage disclaimer addition, removal of 5 accreditation badges, removal of upfront/written estimate claims, and removal of remaining 24/7 emergency claims on index.html.",
+    "changes": [
+      {
+        "file": "index.html",
+        "type": "addedFooterDisclaimer",
+        "original": "\n      <!-- Footer Bottom Bar -->\n      <div class=\"footer-bottom-bar\">",
+        "replacement": "\n      <!-- Temporary Home Footer Disclaimer -->\n      <div class=\"footer-temp-disclaimer\" style=\"margin: 24px 0 18px; padding: 14px 18px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; font-size: 0.82rem; color: #CBD5E1; line-height: 1.6; text-align: center;\">\n        This site is a free service to assist homeowners in connecting with local HVAC providers. All contractors are independent and this site does not warrant or guarantee any work performed.\n      </div>\n      <!-- Footer Bottom Bar -->\n      <div class=\"footer-bottom-bar\">",
+        "beforeAnchor": "ency\">Emergency AC Service</a></li>\n          </ul>\n        </div>\n      </div>\n",
+        "afterAnchor": "\n        <div class=\"container\" style=\"display: flex; justify-content: space-bet"
+      },
+      {
+        "file": "index.html",
+        "type": "removedAccreditationsSection",
+        "original": "\n  <!-- ==========================================================================\n       9. ACCREDITATION & TRUST BADGES\n       ========================================================================== -->\n  <section class=\"accreditations-section\">\n    <div class=\"container\">\n      <div class=\"accreditations-grid\">\n        <div class=\"accreditation-badge\">\n          <div class=\"accreditation-icon-wrap\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n              <path d=\"m9 12 2 2 4-4\"></path>\n            </svg>\n          </div>\n          <div class=\"accreditation-info\">\n            <span class=\"accreditation-title\">BBB Accredited</span>\n            <span class=\"accreditation-sub\">A+ Rating for Trust &amp; Ethics</span>\n          </div>\n        </div>\n\n        <div class=\"accreditation-badge\">\n          <div class=\"accreditation-icon-wrap\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <circle cx=\"12\" cy=\"8\" r=\"7\"></circle>\n              <polyline points=\"8.21 13.89 7 23 12 20 17 23 15.79 13.88\"></polyline>\n            </svg>\n          </div>\n          <div class=\"accreditation-info\">\n            <span class=\"accreditation-title\">NATE Certified</span>\n            <span class=\"accreditation-sub\">North American Tech Excellence</span>\n          </div>\n        </div>\n\n        <div class=\"accreditation-badge\">\n          <div class=\"accreditation-icon-wrap\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\"></path>\n              <path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"></path>\n            </svg>\n          </div>\n          <div class=\"accreditation-info\">\n            <span class=\"accreditation-title\">EPA Section 608</span>\n            <span class=\"accreditation-sub\">Universal Safe Refrigerant Handling</span>\n          </div>\n        </div>\n\n        <div class=\"accreditation-badge\">\n          <div class=\"accreditation-icon-wrap\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n            </svg>\n          </div>\n          <div class=\"accreditation-info\">\n            <span class=\"accreditation-title\">Energy Star Partner</span>\n            <span class=\"accreditation-sub\">High-Efficiency Rebate Qualified</span>\n          </div>\n        </div>\n\n        <div class=\"accreditation-badge\">\n          <div class=\"accreditation-icon-wrap\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"></path>\n              <polyline points=\"22 4 12 14.01 9 11.01\"></polyline>\n            </svg>\n          </div>\n          <div class=\"accreditation-info\">\n            <span class=\"accreditation-title\">Google Guaranteed</span>\n            <span class=\"accreditation-sub\">Verified License &amp; Insurance</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+        "replacement": "",
+        "beforeAnchor": "    </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n",
+        "afterAnchor": "\n\n  <!-- ======================================================================="
+      },
+      {
+        "file": "index.html",
+        "type": "heroBodyUpfrontEstimates",
+        "original": "As a licensed and insured business, we focus on accurate diagnostics, clear repair recommendations, and upfront estimates before work begins. We offer dependable residential and commercial air conditioning and heating services.",
+        "replacement": "As a licensed and insured business, we focus on accurate diagnostics and clear repair recommendations. We offer dependable residential and commercial air conditioning and heating services.",
+        "beforeAnchor": "AC manufacturers.\n          </p>\n\n          <p class=\"hero-body-p\">\n            ",
+        "afterAnchor": "\n          </p>\n\n          <p class=\"hero-contact-p\">\n            Contact our te"
+      },
+      {
+        "file": "index.html",
+        "type": "heroTrustUpfrontEstimates",
+        "original": "\n          <div class=\"hero-trust-item\">\n            <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n              <polyline points=\"12 6 12 12 16 14\"></polyline>\n            </svg>\n            <span>Prompt Professional Service</span>\n          </div>\n          <div class=\"hero-trust-item\">\n            <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n            </svg>\n            <span>Licensed &amp; Insured</span>\n          </div>\n          <div class=\"hero-trust-item\">\n            <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\" ry=\"2\"></rect>\n              <path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path>\n            </svg>\n            <span>Upfront Estimates</span>\n          </div>",
+        "replacement": "",
+        "beforeAnchor": "v>\n\n        <!-- Trust Mini-Row in Hero -->\n        <div class=\"hero-trust-row\">",
+        "afterAnchor": "\n          <div class=\"hero-trust-item\">\n            <svg width=\"17\" height=\"17\""
+      },
+      {
+        "file": "index.html",
+        "type": "trustStripUpfrontEstimates",
+        "original": "\n        <div class=\"trust-strip-item\">\n          <div class=\"trust-icon-box\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n            </svg>\n          </div>\n          <div class=\"trust-text-wrap\">\n            <span class=\"trust-title\">Licensed &amp; Insured</span>\n            <span class=\"trust-sub\">Certified for Miami-Dade.</span>\n          </div>\n        </div>\n\n        <div class=\"trust-strip-item\">\n          <div class=\"trust-icon-box\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path>\n              <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n            </svg>\n          </div>\n          <div class=\"trust-text-wrap\">\n            <span class=\"trust-title\">25 Years Experience</span>\n            <span class=\"trust-sub\">Expert troubleshooting.</span>\n          </div>\n        </div>\n\n        <div class=\"trust-strip-item\">\n          <div class=\"trust-icon-box\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"></path>\n              <polyline points=\"14 2 14 8 20 8\"></polyline>\n              <line x1=\"16\" y1=\"13\" x2=\"8\" y2=\"13\"></line>\n              <line x1=\"16\" y1=\"17\" x2=\"8\" y2=\"17\"></line>\n            </svg>\n          </div>\n          <div class=\"trust-text-wrap\">\n            <span class=\"trust-title\">Upfront Estimates</span>\n            <span class=\"trust-sub\">In writing before work starts.</span>\n          </div>\n        </div>",
+        "replacement": "",
+        "beforeAnchor": "=\"trust-strip\">\n    <div class=\"container\">\n      <div class=\"trust-strip-grid\">",
+        "afterAnchor": "\n\n        <div class=\"trust-strip-item\">\n          <div class=\"trust-icon-box\">\n"
+      },
+      {
+        "file": "index.html",
+        "type": "benefitCardUpfrontWrittenEstimates",
+        "original": "\n            <div class=\"benefit-card\">\n              <div class=\"benefit-icon-box\">\n                <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\">\n                  <circle cx=\"12\" cy=\"8\" r=\"7\"></circle>\n                  <polyline points=\"8.21 13.89 7 23 12 20 17 23 15.79 13.88\"></polyline>\n                </svg>\n              </div>\n              <div class=\"benefit-text-wrap\">\n                <h4 class=\"benefit-title\">25 Years of HVAC Experience</h4>\n                <p class=\"benefit-desc\">A strong foundation handling residential and commercial cooling requirements.</p>\n              </div>\n            </div>\n\n            <div class=\"benefit-card\">\n              <div class=\"benefit-icon-box\">\n                <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\">\n                  <path d=\"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\"></path>\n                  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n                </svg>\n              </div>\n              <div class=\"benefit-text-wrap\">\n                <h4 class=\"benefit-title\">Certified HVAC Technicians</h4>\n                <p class=\"benefit-desc\">Qualified technical knowledge to assess problems and recommend appropriate solutions.</p>\n              </div>\n            </div>\n\n            <div class=\"benefit-card\">\n              <div class=\"benefit-icon-box\">\n                <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\">\n                  <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n                </svg>\n              </div>\n              <div class=\"benefit-text-wrap\">\n                <h4 class=\"benefit-title\">Licensed &amp; Insured</h4>\n                <p class=\"benefit-desc\">Giving property owners complete confidence for every scheduled service.</p>\n              </div>\n            </div>\n\n            <div class=\"benefit-card\">\n              <div class=\"benefit-icon-box\">\n                <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\">\n                  <rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\" ry=\"2\"></rect>\n                  <path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path>\n                </svg>\n              </div>\n              <div class=\"benefit-text-wrap\">\n                <h4 class=\"benefit-title\">Upfront Written Estimates</h4>\n                <p class=\"benefit-desc\">We explain the problem, discuss options, and provide pricing before work begins.</p>\n              </div>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": ", and clear communication.\n          </p>\n\n          <div class=\"benefits-grid\">",
+        "afterAnchor": "\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n\n  <!-- ="
+      },
+      {
+        "file": "index.html",
+        "type": "processStep3UpfrontWrittenEstimate",
+        "original": "<p class=\"process-step-desc\">We explain findings, diagnostic results, and present clear upfront written estimate options.</p>",
+        "replacement": "<p class=\"process-step-desc\">We explain findings, diagnostic results, and walk you through your available service options.</p>",
+        "beforeAnchor": "      <h4 class=\"process-step-title\">Review the Repair Options</h4>\n            ",
+        "afterAnchor": "\n          </div>\n        </div>\n\n        <!-- Step 4 -->\n        <div class=\"pr"
+      },
+      {
+        "file": "index.html",
+        "type": "schemaDescription24Hours",
+        "original": "Miami Air Conditioning Repair provides residential and commercial air conditioning, heating, indoor air quality, and commercial HVAC services across its South Florida service areas. Emergency HVAC service is available 24 hours a day, 7 days a week.",
+        "replacement": "Miami Air Conditioning Repair provides residential and commercial air conditioning, heating, indoor air quality, and commercial HVAC services across its South Florida service areas.",
+        "beforeAnchor": "atitude\": 25.7617,\n        \"longitude\": -80.1918\n      },\n      \"description\": \"",
+        "afterAnchor": "\",\n      \"openingHoursSpecification\": [\n        {\n          \"@type\": \"OpeningHou"
+      },
+      {
+        "file": "index.html",
+        "type": "faqSupport24Hours",
+        "original": "<p>Our dispatchers are standing by 24 hours a day for emergency service inquiries throughout Miami-Dade.</p>",
+        "replacement": "<p>Contact our dispatch team for service inquiries and scheduling throughout Miami-Dade.</p>",
+        "beforeAnchor": "\"faq-support-card\">\n            <h4>Need Immediate Assistance?</h4>\n            ",
+        "afterAnchor": "\n            <a href=\"tel:3059026113\" class=\"btn-primary-blue\">\n              <s"
+      },
+      {
+        "file": "index.html",
+        "type": "footerEmergency24Hours",
+        "original": "\n            <div style=\"margin-top: 6px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.82rem; color: #38BDF8;\">\n              <strong>Emergency HVAC:</strong> 24 hours, 7 days <a href=\"tel:3059026113\" style=\"color: #FFFFFF; font-weight: 700; text-decoration: underline; margin-left: 4px;\">(305) 902-6113</a>\n            </div>",
+        "replacement": "",
+        "beforeAnchor": "an>\n              <span style=\"color: #94A3B8;\">Closed</span>\n            </div>",
+        "afterAnchor": "\n          </div>\n          <div class=\"footer-contact-item\" style=\"display: fle"
+      }
+    ]
   }
 }
