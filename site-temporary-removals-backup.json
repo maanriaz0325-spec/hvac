@@ -1,0 +1,624 @@
+{
+  "timestamp": "2026-11-11T16:41:06.378Z",
+  "description": "Backup of temporarily removed star rating lines across all pages and temporary \"best\" word replacements so they can be restored identically later.",
+  "starRemovals": {
+    "about-us.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      }
+    ],
+    "ac-installation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "=\"color: var(--white);\">What Customers Say About Our AC Replacement Service</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5;\">\n          Choosing"
+      },
+      {
+        "type": "serviceReviewStarsSingle",
+        "original": "\n          <div class=\"service-review-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>",
+        "beforeAnchor": "views-grid\">\n        <!-- Review 1 -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\">\n            \"We replaced our 16-year"
+      },
+      {
+        "type": "serviceReviewStarsSingle",
+        "original": "\n          <div class=\"service-review-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>",
+        "beforeAnchor": "     </div>\n\n        <!-- Review 2 -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\">\n            \"Needed a ductless mini-"
+      },
+      {
+        "type": "serviceReviewStarsSingle",
+        "original": "\n          <div class=\"service-review-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>",
+        "beforeAnchor": "     </div>\n\n        <!-- Review 3 -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\">\n            \"After our old compresso"
+      }
+    ],
+    "ac-maintenance.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "\"section-title\">Frequently Asked Questions About Residential AC Maintenance</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\">\n          Got questions about our resident"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "ac-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "style=\"color: var(--white);\">What Customers Say About Our AC Repair Service</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5;\">\n          Choosing"
+      },
+      {
+        "type": "serviceReviewStarsSingle",
+        "original": "\n          <div class=\"service-review-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>",
+        "beforeAnchor": "views-grid\">\n        <!-- Review 1 -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\">\n            \"Our AC stopped cooling "
+      },
+      {
+        "type": "serviceReviewStarsSingle",
+        "original": "\n          <div class=\"service-review-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>",
+        "beforeAnchor": "     </div>\n\n        <!-- Review 2 -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\">\n            \"We had water dripping t"
+      },
+      {
+        "type": "serviceReviewStarsSingle",
+        "original": "\n          <div class=\"service-review-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>",
+        "beforeAnchor": "     </div>\n\n        <!-- Review 3 -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\">\n            \"Another company told us"
+      }
+    ],
+    "ac-replacement.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "  <h2 class=\"section-title\">Frequently Asked Questions About AC Replacement</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\">\n          Got questions about replacing yo"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "air-duct-cleaning.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": ": 8px; margin-bottom: 12px;\">What Customers Say About Our Air Duct Cleaning</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "air-duct-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "tom: 12px;\">What Customers Say About Our Air Duct Repair &amp; Installation</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "air-filtration-system-installation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "; margin-bottom: 12px;\">What Customers Say About Our Air Filtration Systems</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "commercial-ac-installation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "margin-bottom: 12px;\">What Commercial Clients Say About Our AC Installation</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "commercial-ac-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": " 8px; margin-bottom: 12px;\">What Commercial Clients Say About Our AC Repair</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "commercial-refrigeration.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "px;\">What Commercial Clients Say About Our Commercial Refrigeration Service</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceTrustItemRating",
+        "original": "\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>25 Years Experience</strong>\n              <span>Commercial &amp; Industrial HVAC</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>Licensed &amp; Insured</strong>\n              <span>Licensed &amp; Insured</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>Certified Technicians</strong>\n              <span>Commercial Mechanical Specialists</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect><line x1=\"2\" y1=\"10\" x2=\"22\" y2=\"10\"></line></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>Upfront Written Pricing</strong>\n              <span>No Hidden Charges</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>4.9 / 5 Rating</strong>\n              <span>Over 1,200 Commercial Reviews</span>\n            </div>\n          </div>",
+        "beforeAnchor": "strip\">\n      <div class=\"container\">\n        <div class=\"service-trust-grid-5\">",
+        "afterAnchor": "\n        </div>\n      </div>\n    </section>\n\n    <!-- =========================="
+      }
+    ],
+    "commercial-rooftop-unit.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "in-bottom: 12px;\">What Commercial Clients Say About Our Rooftop RTU Service</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.8 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "commercial-ventilation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "12px;\">What Commercial Clients Say About Our Commercial Ventilation Service</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceTrustItemRating",
+        "original": "\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>25 Years Experience</strong>\n              <span>Commercial &amp; Industrial HVAC</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>Licensed &amp; Insured</strong>\n              <span>Licensed &amp; Insured</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M23 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>Certified Technicians</strong>\n              <span>Commercial Mechanical Specialists</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect><line x1=\"2\" y1=\"10\" x2=\"22\" y2=\"10\"></line></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>Upfront Written Pricing</strong>\n              <span>No Hidden Charges</span>\n            </div>\n          </div>\n          <div class=\"service-trust-item\">\n            <div class=\"service-trust-item-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon></svg>\n            </div>\n            <div class=\"service-trust-item-text\">\n              <strong>4.9 / 5 Rating</strong>\n              <span>Over 1,200 Commercial Reviews</span>\n            </div>\n          </div>",
+        "beforeAnchor": "strip\">\n      <div class=\"container\">\n        <div class=\"service-trust-grid-5\">",
+        "afterAnchor": "\n        </div>\n      </div>\n    </section>\n\n    <!-- =========================="
+      }
+    ],
+    "dehumidifier-installation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "m: 12px;\">What Customers Say About Our Whole-Home Dehumidifier Installation</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">5.0 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "furnace-installation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "px; margin-bottom: 12px;\">What Customers Say About Our Furnace Installation</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "furnace-replacement.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "8px; margin-bottom: 12px;\">What Customers Say About Our Furnace Replacement</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "gas-furnace-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": " 8px; margin-bottom: 12px;\">What Customers Say About Our Gas Furnace Repair</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.8 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "heat-pump-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "p: 8px; margin-bottom: 12px;\">What Customers Say About Our Heat Pump Repair</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.8 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "heating-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "lass=\"section-title\">Frequently Asked Questions About Heating System Repair</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\">\n          Straightforward technical answer"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "hvac-service.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n      </div>\n    </div>\n  </div>\n\n  <!-- ======================================"
+      }
+    ],
+    "miami.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "miamiTrustItemRating",
+        "original": "\n        <div class=\"service-trust-item\">\n          <div class=\"service-trust-item-icon\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n              <polyline points=\"12 6 12 12 16 14\"></polyline>\n            </svg>\n          </div>\n          <div>\n            <div class=\"service-trust-item-title\">25 Years Experience</div>\n            <div class=\"service-trust-item-sub\">Proven HVAC industry knowledge</div>\n          </div>\n        </div>\n\n        <div class=\"service-trust-item\">\n          <div class=\"service-trust-item-icon\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path>\n            </svg>\n          </div>\n          <div>\n            <div class=\"service-trust-item-title\">Licensed &amp; Insured</div>\n            <div class=\"service-trust-item-sub\">State Licensed & Insured</div>\n          </div>\n        </div>\n\n        <div class=\"service-trust-item\">\n          <div class=\"service-trust-item-icon\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"23\"></line>\n              <path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"></path>\n            </svg>\n          </div>\n          <div>\n            <div class=\"service-trust-item-title\">Upfront Pricing</div>\n            <div class=\"service-trust-item-sub\">Clear costs before work begins</div>\n          </div>\n        </div>\n\n        <div class=\"service-trust-item\">\n          <div class=\"service-trust-item-icon\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n              <polyline points=\"12 6 12 16 14\"></polyline>\n            </svg>\n          </div>\n          <div>\n            <div class=\"service-trust-item-title\">Same-Day Dispatch</div>\n            <div class=\"service-trust-item-sub\">Rapid local Miami response</div>\n          </div>\n        </div>\n\n        <div class=\"service-trust-item\">\n          <div class=\"service-trust-item-icon\">\n            <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n              <polygon points=\"12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2\"></polygon>\n            </svg>\n          </div>\n          <div>\n            <div class=\"service-trust-item-title\">4.8-Star Rating</div>\n            <div class=\"service-trust-item-sub\">Trusted by homeowners across Miami</div>\n          </div>",
+        "beforeAnchor": "ust-strip\">\n    <div class=\"container\">\n      <div class=\"service-trust-grid-5\">",
+        "afterAnchor": "\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- ==================="
+      },
+      {
+        "type": "miamiLocTrustItemRating",
+        "original": "\n              <div class=\"loc-trust-item\">\n                <div class=\"loc-trust-num\">5</div>\n                <div>\n                  <strong style=\"color: #061A30; font-size: 1rem;\">4.8-Star Verified Customer Rating:</strong>\n                  <span style=\"color: #475569; font-size: 0.95rem; margin-left: 6px;\">Consistent top-tier service experiences backed by verified reviews from homeowners across Miami.</span>\n                </div>\n              </div>",
+        "beforeAnchor": "se costs, or pressure sales.</span>\n                </div>\n              </div>\n",
+        "afterAnchor": "\n            </div>\n\n            <p class=\"loc-text\" style=\"font-weight: 600; co"
+      }
+    ],
+    "pellet-stove-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "8px; margin-bottom: 12px;\">What Customers Say About Our Pellet Stove Repair</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9734;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.5 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "privacy-policy.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n      </div>\n    </div>\n  </div>\n\n  <!-- Main Navigation Header -->\n  <header c"
+      }
+    ],
+    "terms-and-conditions.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      }
+    ],
+    "uv-air-purifier-installation.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      },
+      {
+        "type": "reviewsRatingAggregate",
+        "original": "\n        <div class=\"reviews-rating-aggregate\" style=\"display: inline-flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px; margin-bottom: 14px; background: rgba(255, 255, 255, 0.08); padding: 8px 18px; border-radius: 9999px; border: 1px solid rgba(255, 255, 255, 0.15);\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 1.1rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #64748B;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-size: 1.05rem; font-weight: 800;\">4.8 Rating</strong>\n          <span style=\"color: #CBD5E1; font-size: 0.9rem;\">&bull; 250+ Verified Reviews</span>\n        </div>",
+        "beforeAnchor": "in-bottom: 12px;\">What Customers Say About Our UV Air Purifier Installation</h2>",
+        "afterAnchor": "\n        <p class=\"section-subtitle\" style=\"color: #D3E3F5; font-size: 1.02rem; "
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "gin: 0 auto;\">\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      },
+      {
+        "type": "serviceReviewStarsMulti",
+        "original": "\n          <div class=\"service-review-stars\" style=\"display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;\">\n            <span style=\"color: #FFA000; font-size: 1.15rem; letter-spacing: 2px;\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span style=\"background: rgba(255, 160, 0, 0.15); color: #FFA000; font-weight: 800; font-size: 0.82rem; padding: 3px 8px; border-radius: 6px; letter-spacing: 0;\">4.9 / 5.0</span>\n          </div>",
+        "beforeAnchor": "        </div>\n        <!-- Review -->\n        <div class=\"service-review-card\">",
+        "afterAnchor": "\n          <p class=\"service-review-quote\" style=\"font-size: 0.98rem; line-heigh"
+      }
+    ],
+    "water-heater-repair.html": [
+      {
+        "type": "topBarReviewsBadge",
+        "original": "\n        <span class=\"top-bar-item top-bar-reviews-badge\" style=\"display: inline-flex; align-items: center; gap: 6px;\">\n          <span class=\"star-rating-exact\" style=\"display: inline-flex; align-items: center; color: #FFB800; font-size: 0.9rem; line-height: 1;\">\n            <span>★</span><span>★</span><span>★</span><span>★</span><span style=\"position: relative; display: inline-block; color: #475569;\"><span style=\"position: absolute; left: 0; top: 0; width: 80%; overflow: hidden; color: #FFB800;\">★</span>★</span>\n          </span>\n          <strong style=\"color: #FFFFFF; font-weight: 700;\">4.8 Rating</strong>\n          <span style=\"color: #94A3B8; font-size: 0.8rem;\">(250+ Reviews)</span>\n        </span>",
+        "beforeAnchor": "mp; South Florida\n        </span>\n      </div>\n      <div class=\"top-bar-right\">",
+        "afterAnchor": "\n        \n        \n        \n      </div>\n    </div>\n  </div>\n\n  <!-- ==========="
+      }
+    ]
+  },
+  "bestReplacements": [
+    {
+      "file": "furnace-installation.html",
+      "original": "offer the best return on investment.",
+      "replacement": "offer a strong return on investment.",
+      "occurrences": 1
+    },
+    {
+      "file": "furnace-replacement.html",
+      "original": "<em>Best For:</em>",
+      "replacement": "<em>Ideal For:</em>",
+      "occurrences": 2
+    }
+  ]
+}
