@@ -48,16 +48,29 @@ function filePathToUrl(relPath) {
   // Must be an HTML page
   if (!norm.endsWith('.html')) return null;
 
-  // Ignore non-public or temp files
-  if (norm.startsWith('.') || norm.startsWith('node_modules/') || norm.startsWith('scripts/')) {
+  // Ignore non-public, hidden, test, or build artifact files
+  if (
+    norm.startsWith('.') || 
+    norm.startsWith('node_modules/') || 
+    norm.startsWith('scripts/') ||
+    norm.includes('/.') ||
+    norm === '404.html'
+  ) {
     return null;
   }
 
+  // Root index
   if (norm === 'index.html') {
     return `${BASE_URL}/`;
   }
 
-  // Remove .html extension for clean canonical URLs
+  // Subdirectory index e.g. miami/index.html -> https://miamiairconditioningheatrepair.com/miami
+  if (norm.endsWith('/index.html')) {
+    const folder = norm.slice(0, -('/index.html'.length));
+    return `${BASE_URL}/${folder}`;
+  }
+
+  // Standard clean URL without .html extension (e.g. ac-repair.html -> https://miamiairconditioningheatrepair.com/ac-repair)
   const cleanPath = norm.slice(0, -5);
   return `${BASE_URL}/${cleanPath}`;
 }
@@ -113,14 +126,20 @@ function getChangedUrls(beforeSha, currentSha) {
     console.log(`[IndexNow] Git detected ${changedFiles.length} changed file(s):`);
     changedFiles.forEach(f => console.log(`  - ${f}`));
 
-    // If sitemap.xml changed, it's safer to submit sitemap URLs
+    // If sitemap.xml changed, submit all canonical URLs from sitemap
     if (changedFiles.some(f => f.endsWith('sitemap.xml'))) {
-      console.log('[IndexNow] sitemap.xml was modified; submitting all sitemap URLs.');
+      console.log('[IndexNow] sitemap.xml was modified; submitting all canonical sitemap URLs.');
       return getSitemapUrls();
     }
 
     const urls = [];
     for (const file of changedFiles) {
+      const fullPath = path.join(REPO_ROOT, file);
+      // Exclude deleted files
+      if (!fs.existsSync(fullPath)) {
+        console.log(`[IndexNow] File deleted or not present locally, skipping: ${file}`);
+        continue;
+      }
       const url = filePathToUrl(file);
       if (url) urls.push(url);
     }
@@ -179,7 +198,9 @@ function postToIndexNow(key, keyLocation, urls) {
 // 6. Main execution
 async function main() {
   const args = process.argv.slice(2);
-  const isSubmitAll = args.includes('--all') || process.env.SUBMIT_ALL === 'true' || process.env.EVENT_NAME === 'workflow_dispatch';
+  const isSubmitAll = args.includes('--all') || 
+                      process.env.SUBMIT_ALL === 'true' || 
+                      (process.env.EVENT_NAME === 'workflow_dispatch' && process.env.SUBMIT_ALL !== 'false');
   const isDryRun = args.includes('--dry-run');
 
   console.log('====================================================');
