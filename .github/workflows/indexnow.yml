@@ -1,0 +1,44 @@
+name: IndexNow Auto Submit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.html'
+      - 'sitemap.xml'
+  workflow_dispatch:
+    inputs:
+      submit_all:
+        description: 'Submit all canonical URLs from sitemap'
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: indexnow-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  indexnow:
+    name: Submit URLs to IndexNow
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run IndexNow Submission
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_API_KEY }}
+          BEFORE_SHA: ${{ github.event.before }}
+          GITHUB_SHA: ${{ github.sha }}
+          EVENT_NAME: ${{ github.event_name }}
+          SUBMIT_ALL: ${{ github.event.inputs.submit_all }}
+        run: node .github/scripts/indexnow.js
