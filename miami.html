@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HVAC Services Miami FL | Professional Local AC & Heating Experts</title>
+  <title>HVAC Services in Miami, FL | AC Repair &amp; Installation</title>
   <link rel="canonical" href="https://miamiairconditioningheatrepair.com/miami">
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Looking for dependable HVAC services in Miami, FL? Miami Air Conditioning Repair serves local homeowners and businesses with AC repair, replacement, maintenance, heating and indoor air quality services.">
+  <meta name="description" content="Need HVAC service in Miami, FL? Get help with AC repair, installation, replacement, maintenance, heating, and air conditioning services from Miami Air Conditioning Repair.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
@@ -25,8 +25,8 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Miami Air Conditioning Repair">
-  <meta property="og:title" content="HVAC Services Miami FL | Professional Local AC & Heating Experts">
-  <meta property="og:description" content="Looking for dependable HVAC services in Miami, FL? Miami Air Conditioning Repair serves local homeowners and businesses with AC repair, replacement, maintenance, heating and indoor air quality services.">
+  <meta property="og:title" content="HVAC Services in Miami, FL | AC Repair &amp; Installation">
+  <meta property="og:description" content="Need HVAC service in Miami, FL? Get help with AC repair, installation, replacement, maintenance, heating, and air conditioning services from Miami Air Conditioning Repair.">
   <meta property="business:contact_data:street_address" content="1658 NE 181st St.">
   <meta property="business:contact_data:locality" content="Miami">
   <meta property="business:contact_data:region" content="FL">
@@ -367,7 +367,238 @@
     .loc-faq-item.active .loc-faq-arrow {
       transform: rotate(180deg);
     }
+  
+    /* Problem Cards Grid (Responsive 2-col to 1-col) */
+    .loc-problems-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin: 20px 0 26px;
+    }
+    .loc-problem-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 18px;
+      background: #FFFFFF;
+      border: 1.5px solid #E2E8F0;
+      border-radius: 10px;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    }
+    .loc-problem-item:hover {
+      border-color: #0869C9;
+      box-shadow: 0 4px 14px rgba(8, 105, 201, 0.08);
+      transform: translateY(-2px);
+    }
+    .loc-problem-item-full {
+      grid-column: 1 / -1;
+    }
+    .loc-problem-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      background: rgba(8, 105, 201, 0.08);
+      color: #0869C9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .loc-problem-content {
+      flex: 1;
+      min-width: 0;
+    }
+    .loc-problem-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #061A30;
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+    .loc-problem-desc {
+      font-size: 0.92rem;
+      line-height: 1.58;
+      color: #475569;
+      margin: 0;
+    }
+
+    /* Callout Card Box */
+    .loc-callout-card {
+      background: #F8FAFC;
+      border: 1.5px solid #CBD5E1;
+      border-left: 5px solid #061A30;
+      border-radius: 10px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+    .loc-callout-text {
+      font-size: 1.02rem;
+      line-height: 1.65;
+      color: #334155;
+      margin-bottom: 18px;
+    }
+    .loc-callout-action-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .loc-callout-prompt {
+      font-size: 1.04rem;
+      color: #061A30;
+      line-height: 1.4;
+      flex: 1;
+      min-width: 260px;
+    }
+
+    /* Mobile Sticky Bottom Call Bar */
+    .mobile-bottom-call-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #061A30;
+      box-shadow: 0 -4px 18px rgba(0,0,0,0.18);
+      z-index: 9999;
+      padding: 10px 16px;
+    }
+    .mobile-bottom-call-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #FF5A1F;
+      color: #FFFFFF !important;
+      font-weight: 800;
+      font-size: 1.08rem;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      width: 100%;
+      box-sizing: border-box;
+      box-shadow: 0 2px 8px rgba(255,90,31,0.3);
+    }
+
+    /* Responsive Breakdown & Enhancements */
+    @media (max-width: 991px) {
+      .loc-grid-container {
+        grid-template-columns: 1fr !important;
+        gap: 36px !important;
+      }
+      .loc-sticky-sidebar {
+        position: static !important;
+        width: 100% !important;
+        margin-top: 24px !important;
+      }
+      .sidebar-urgent-box {
+        max-width: 100% !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .loc-main-wrapper {
+        padding: 40px 0 60px !important;
+      }
+      .loc-h2 {
+        font-size: 1.55rem !important;
+        line-height: 1.3 !important;
+      }
+      .loc-problems-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+      }
+      .loc-problem-item {
+        padding: 14px 16px !important;
+      }
+      .loc-problem-item-full {
+        grid-column: auto !important;
+      }
+      .loc-callout-card {
+        padding: 18px 16px !important;
+      }
+      .loc-callout-action-row {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 14px !important;
+      }
+      .loc-callout-action-row .loc-cta-btn-navy {
+        width: 100% !important;
+        justify-content: center !important;
+        text-align: center !important;
+      }
+      .sidebar-urgent-box {
+        padding: 22px 18px !important;
+        border-radius: 12px !important;
+      }
+      .sidebar-urgent-title {
+        font-size: 1.25rem !important;
+      }
+      .sidebar-navy-phone-btn {
+        width: 100% !important;
+        padding: 15px 16px !important;
+        font-size: 1.15rem !important;
+        min-height: 52px !important;
+        box-sizing: border-box !important;
+      }
+      .services-btn-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+      }
+      .mobile-bottom-call-bar {
+        display: block !important;
+      }
+      body {
+        padding-bottom: 64px !important;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .loc-h2 {
+        font-size: 1.35rem !important;
+      }
+      .loc-text {
+        font-size: 0.96rem !important;
+      }
+      .services-btn-grid {
+        grid-template-columns: 1fr !important;
+      }
+      .loc-zips-grid {
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)) !important;
+        gap: 5px !important;
+      }
+      .loc-zip-badge {
+        padding: 4px 2px !important;
+        font-size: 0.74rem !important;
+      }
+      .loc-neighborhood-pill {
+        font-size: 0.85rem !important;
+        padding: 6px 10px !important;
+      }
+      .sidebar-urgent-box {
+        padding: 18px 14px !important;
+      }
+      .sidebar-navy-phone-btn {
+        font-size: 1.05rem !important;
+        padding: 13px 12px !important;
+      }
+      .loc-trust-item {
+        padding: 10px 12px !important;
+        gap: 10px !important;
+      }
+      .service-hero-actions {
+        flex-direction: column !important;
+        width: 100% !important;
+      }
+      .service-hero-actions .btn-hero-dark-call {
+        width: 100% !important;
+        justify-content: center !important;
+      }
+    }
   </style>
+
 
   
   <!-- JSON-LD Miami Location WebPage, Service, OfferCatalog, Breadcrumb & FAQPage Structured Data -->
@@ -440,8 +671,8 @@
       "@type": "WebPage",
       "@id": "https://miamiairconditioningheatrepair.com/miami#webpage",
       "url": "https://miamiairconditioningheatrepair.com/miami",
-      "name": "HVAC Services in Miami, FL | Miami Air Conditioning Repair",
-      "description": "Explore air conditioning repair, installation, replacement, maintenance, heating, indoor air quality, and commercial HVAC services in Miami, Florida.",
+      "name": "HVAC Services in Miami, FL | AC Repair & Installation",
+      "description": "Need HVAC service in Miami, FL? Get help with AC repair, installation, replacement, maintenance, heating, and air conditioning services from Miami Air Conditioning Repair.",
       "isPartOf": {
         "@id": "https://miamiairconditioningheatrepair.com/#website"
       },
@@ -942,14 +1173,14 @@
           </div>
 
           <h1 class="service-hero-title">
-            HVAC Repair &amp;<br><span>Replacement Services in Miami, FL</span>
+            HVAC Services in Miami, FL<br><span>AC Repair &amp; Installation</span>
           </h1>
 
           <p class="service-hero-sub">
-            When your air conditioner stops cooling, an older system needs replacing, or your HVAC equipment isn't keeping your property comfortable, you need a contractor who can help you determine the next step. Miami Air Conditioning Repair provides HVAC services in Miami, FL, for customers looking for air conditioning repair, installation, replacement and maintenance.
+            Need a dependable <strong>HVAC company in Miami, FL</strong>? <strong>Miami Air Conditioning Repair</strong> provides complete residential and commercial <strong>HVAC services in Miami, FL</strong>, specializing in emergency <strong>AC repair in Miami</strong>, new <strong>AC installation</strong>, energy-efficient <strong>AC replacement</strong>, and routine maintenance.
           </p>
           <p class="service-hero-sub" style="font-size: 1.02rem; margin-top: -10px; margin-bottom: 22px;">
-            Whether you are dealing with an unexpected cooling problem or planning work on your existing system, contact our team to discuss the issue and arrange a service appointment.
+            Whether you are searching for a trusted <strong>HVAC contractor near me</strong> or dealing with an unexpected cooling breakdown, our certified technicians are ready to restore your indoor comfort with fast, upfront estimates and same-day dispatch.
           </p>
 
           <!-- 4 Trust Highlights Grid -->
@@ -1014,6 +1245,54 @@
   <section class="service-trust-strip">
     <div class="container">
       <div class="service-trust-grid-5">
+        <div class="service-trust-item">
+          <div class="service-trust-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div>
+            <div class="service-trust-item-title">25 Years Experience</div>
+            <div class="service-trust-item-sub">Proven HVAC industry knowledge</div>
+          </div>
+        </div>
+
+        <div class="service-trust-item">
+          <div class="service-trust-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div>
+            <div class="service-trust-item-title">Licensed &amp; Insured</div>
+            <div class="service-trust-item-sub">Certified mechanical contractor</div>
+          </div>
+        </div>
+
+        <div class="service-trust-item">
+          <div class="service-trust-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          </div>
+          <div>
+            <div class="service-trust-item-title">Upfront Pricing</div>
+            <div class="service-trust-item-sub">Clear estimates before work begins</div>
+          </div>
+        </div>
+
+        <div class="service-trust-item">
+          <div class="service-trust-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          </div>
+          <div>
+            <div class="service-trust-item-title">Rapid Dispatch</div>
+            <div class="service-trust-item-sub">Fast same-day Miami response</div>
+          </div>
+        </div>
+
+        <div class="service-trust-item">
+          <div class="service-trust-item-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div>
+            <div class="service-trust-item-title">100% Satisfaction</div>
+            <div class="service-trust-item-sub">Reliable heating &amp; cooling service</div>
+          </div>
         </div>
       </div>
     </div>
@@ -1030,6 +1309,116 @@
              LEFT SIDE (70% WIDTH): EDITORIAL HVAC CONTENT
              ==================================================================== -->
         <div class="loc-content-left">
+
+                    <!-- SECTION: LOOKING FOR HVAC SERVICES NEAR YOU IN MIAMI, FL? -->
+          <section class="loc-section-block" id="hvac-near-me">
+            <span class="loc-badge">HVAC SERVICES NEAR YOU</span>
+            <h2 class="loc-h2">Looking for HVAC Services Near You in Miami, FL?</h2>
+
+            <p class="loc-text">
+              Need a reliable HVAC company near you in Miami? <strong>Miami Air Conditioning Repair</strong> provides residential and commercial heating and cooling services throughout Miami, FL. Whether your air conditioner is not cooling, your home feels too humid, or your heating system needs attention, we can help you find the right service for your property.
+            </p>
+
+            <p class="loc-text" style="font-weight: 700; color: #061A30; margin-top: 20px; margin-bottom: 16px;">
+              Miami Air Conditioning Repair helps homeowners identify and address common HVAC problems, including:
+            </p>
+
+            <!-- 7 Common HVAC Problems Grid -->
+            <div class="loc-problems-grid">
+              <!-- Problem 1 -->
+              <div class="loc-problem-item">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">AC Not Cooling Properly</h3>
+                  <p class="loc-problem-desc">Your air conditioner runs but your home stays warm. Restricted airflow, refrigerant issues or failing components may be affecting cooling performance.</p>
+                </div>
+              </div>
+
+              <!-- Problem 2 -->
+              <div class="loc-problem-item">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">High Indoor Humidity</h3>
+                  <p class="loc-problem-desc">Rooms feel sticky or damp even with the AC running. Poor moisture removal, drainage issues or incorrect system sizing may be contributing.</p>
+                </div>
+              </div>
+
+              <!-- Problem 3 -->
+              <div class="loc-problem-item">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18 20V10M12 20V4M6 20v-6"></path></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">Uneven Temperatures</h3>
+                  <p class="loc-problem-desc">Some rooms stay warmer than others because of ductwork problems, restricted airflow or zoning issues.</p>
+                </div>
+              </div>
+
+              <!-- Problem 4 -->
+              <div class="loc-problem-item">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24M14.83 9.17l4.24-4.24M14.83 14.83l4.24 4.24M9.17 14.83l-4.24 4.24"></path></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">AC Leaking Water</h3>
+                  <p class="loc-problem-desc">Water around your indoor unit or air handler may indicate a clogged condensate drain or drainage problem.</p>
+                </div>
+              </div>
+
+              <!-- Problem 5 -->
+              <div class="loc-problem-item">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">AC Not Turning On</h3>
+                  <p class="loc-problem-desc">Electrical faults, thermostat problems or system component failures can prevent your air conditioner from starting.</p>
+                </div>
+              </div>
+
+              <!-- Problem 6 -->
+              <div class="loc-problem-item">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">Heating Not Working Properly</h3>
+                  <p class="loc-problem-desc">During Miami's winter cold fronts, a heat pump or heating system may struggle to provide consistent warmth.</p>
+                </div>
+              </div>
+
+              <!-- Problem 7 -->
+              <div class="loc-problem-item loc-problem-item-full">
+                <div class="loc-problem-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                </div>
+                <div class="loc-problem-content">
+                  <h3 class="loc-problem-title">HVAC Running Constantly</h3>
+                  <p class="loc-problem-desc">Long operating cycles or frequent starts and stops may indicate airflow, thermostat, sizing or equipment performance issues.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Conclusion Box & Direct Call CTA -->
+            <div class="loc-callout-card">
+              <p class="loc-callout-text">
+                From Miami and Miami Beach to Coral Gables, Miami Gardens and North Miami, contact Miami Air Conditioning Repair to discuss your HVAC needs and arrange service.
+              </p>
+              <div class="loc-callout-action-row">
+                <div class="loc-callout-prompt">
+                  <strong>Need HVAC service in Miami? Call Miami Air Conditioning Repair today.</strong>
+                </div>
+                <a href="tel:+18336843425" class="loc-cta-btn-navy" aria-label="Call Miami Air Conditioning Repair at (833) 684-3425">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  <span>(833) 684-3425</span>
+                </a>
+              </div>
+            </div>
+          </section>
 
           <!-- SECTION 1: WHY MIAMI HOMEOWNERS TRUST MIAMI AIR CONDITIONING REPAIR -->
           <section class="loc-section-block">
@@ -1698,5 +2087,13 @@
     });
   </script>
   <script src="/app.js" defer></script>
+
+  <!-- Mobile Fixed Quick Call Bar -->
+  <div class="mobile-bottom-call-bar" aria-label="Quick Call Bar">
+    <a href="tel:+18336843425" class="mobile-bottom-call-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      <span>Call (833) 684-3425</span>
+    </a>
+  </div>
 </body>
 </html>
